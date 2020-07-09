@@ -7,7 +7,7 @@ main:
   - title: "자바 강의"
     url: /java/first-explain/
 
-java:
+docs:
   - title: 자바 강의
     children:
       - title: "자바 강의"

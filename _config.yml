@@ -289,8 +289,8 @@ defaults:
         # _docs
   - scope:
       path: ""
-      type: java
+      type: docs
     values:
       sidebar:
-        nav: "java"
+        nav: "docs"
       
