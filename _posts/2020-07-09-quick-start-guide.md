@@ -1,9 +1,7 @@
 ---
 title: "Quick-Start Guide"
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2020-04-27
-redirect_from:
-  - /theme-setup/
+categories:
+  -java
 toc: true
 ---
 ss
