@@ -287,11 +287,16 @@ defaults:
       layout: single
       author_profile: true
       defaults:
-  # _docs
+ # _docs
   - scope:
       path: ""
       type: java
     values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
       sidebar:
         nav: "java"
       
