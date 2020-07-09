@@ -1,7 +1,7 @@
 ---
 title: "Quick-Start Guide"
 categories:
-  -java
+  - java
 toc: true
 ---
 ss
