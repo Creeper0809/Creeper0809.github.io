@@ -286,4 +286,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+        # _docs
+  - scope:
+      path: ""
+      type: java
+    values:
+      sidebar:
+        nav: "java"
       

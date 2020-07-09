@@ -4,3 +4,10 @@ main:
     url: /categories/
   - title: "내 소개"
     url: /about/
+
+java:
+  - title: 자바 강의
+    children:
+      - title: "자바 강의"
+        url: /java/Java-Explain/
+       
