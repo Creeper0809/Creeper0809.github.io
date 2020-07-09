@@ -1,6 +1,7 @@
 ---
 title: 자바 강의 1
-permalink: /docs/java-first/
+
+permalink: /java/java-first/
   
 toc: true
 ---
