@@ -1,11 +1,6 @@
 ---
 title: 자바 강의 1
-
-categories:
-  - java
-  
-sidebar:
-  nav: "java"
+permalink: /docs/java-first/
   
 toc: true
 ---
