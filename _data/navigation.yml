@@ -5,11 +5,11 @@ main:
   - title: "내 소개"
     url: /about/
   - title: "자바 강의"
-    url: /docs/first-explain/
+    url: /java/first-explain/
 
-docs:
+java:
   - title: 자바 강의
     children:
       - title: "자바 강의"
-        url: /docs/Java-Explain/
+        url: /java/first-explain/
        
