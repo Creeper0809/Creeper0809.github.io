@@ -4,6 +4,8 @@ main:
     url: /categories/
   - title: "내 소개"
     url: /about/
+  - title: "자바 강의"
+    url: /java/first-explain/
 
 java:
   - title: 자바 강의
