@@ -1,8 +1,8 @@
 ---
-title: 자바 강의 1
+title: 
 
 categories:
-  - java
+  - java explain
 sidebar:
   nav: "java"
 toc: true
