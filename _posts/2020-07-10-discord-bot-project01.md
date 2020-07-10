@@ -25,7 +25,7 @@ toc: true;
 이렇게 만들었으면 위 사진처럼 보일텐데 Cilent Id를 잘 복사 해 두고 왼쪽 사이드바에 있는 Bot을 누른다.
 <br/>
 ![디스코드 개발자 사이트](/image/discordbot01-03.PNG "디스코드 개발자 사이트")<br/>
-<br/>
+<br/><br/>
 이 페이지로 왔으면 Add Bot을 눌러 봇을 만든다<br/>
 <br/>
 ![디스코드 개발자 사이트](/image/discordbot01-04.PNG "디스코드 개발자 사이트")<br/>
