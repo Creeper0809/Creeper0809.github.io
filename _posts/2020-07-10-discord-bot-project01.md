@@ -4,6 +4,7 @@ title: 1.디스코드 봇 프로젝트 - 준비 단계
 categories:
   - JDA
   - java
+  
 toc: true;
 ---
 
