@@ -1,6 +1,6 @@
 ---
 title: 1.디스코드 봇 프로젝트 - 준비 
-classes: wide
+
 categories:
   - JDA
   - java
