@@ -9,7 +9,7 @@ toc: true;
 
 요즘 디스코드 봇 만드는것이 재미있어보여 나도 만들어보기로 했다.<br/>
 
-##준비단계
+## 준비단계
 
 봇을 만들기 위해 준비 작업을 해야한다.<br/>
 <https://discord.com/developers/applications><br/>
