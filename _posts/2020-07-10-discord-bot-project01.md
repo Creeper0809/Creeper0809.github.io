@@ -1,5 +1,6 @@
 ---
 title: 디스코드 봇 제작 (1)
+classes: wide
 categories:
   - JDA
   - java
