@@ -6,6 +6,8 @@ categories:
   - java
   
 toc: true;
+
+author_profile: true;
 ---
 
 오늘은 자바와 저번에 만든 디스코드 봇을 연동하는법을 알려드리겠습니다.
