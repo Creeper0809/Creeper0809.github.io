@@ -14,7 +14,9 @@ toc: true;
 
 <https://github.com/DV8FromTheWorld/JDA><br/>
 위 링크에서 JDA의 버전 정보를 가져온다음에<br/>
+<br/>
 ![pom.xml](/image/discordbot02-01.PNG "pom.xml")<br/>
+<br/>
 위 사진처럼 pom.xml 파일에 dependency와 repositories를 추가 해줍니다.<br/>
 안보일수도 있으므로 밑에 코드를 적어놓겠습니다.<br/>
 
@@ -79,7 +81,10 @@ public class Main {
 ```
 
 위와 같은 메세지가 뜬다면 잘 연동시킨겁니다.<br/>
-![디스코드 연동](/image/discordbot02-01.PNG "디스코드 연동")<br/>
-디스코드를 확인해보니 저는 잘 연동이 된것같습니다. 이 봇은 계속 영구적으로 켜져있는게 아니라 이클립스에서 코딩한 프로그램을 계속 켜고 있어야 합니다.<br/>
+<br/>
+![디스코드 연동](/image/discordbot02-02.PNG "디스코드 연동")<br/>
+<br/>
+디스코드를 확인해보니 저는 잘 연동이 된것같습니다.<br/>
+이 봇은 계속 영구적으로 켜져있는게 아니라 이클립스에서 코딩한 프로그램을 계속 켜고 있어야 합니다.<br/>
 ## 다음시간 할것
 다음 시간에는 메세지에 반응 하는방법을 설명하겠습니다.
