@@ -63,7 +63,7 @@ redirect_from:
 - [1077. **넓이**](/study/algorithms/unsorted/boj-1077/)
 - [10070. **벽**](/study/algorithms/unsorted/boj-10070/)
 - [13705. **Ax+Bsin(x)=C**](/study/algorithms/unsorted/boj-13705/)
-- [16911&16912. **트리와 쿼리 12**](/study/algorithms/unsorted/boj-16911-16912/)
+- [16911·16912. 그래프와 쿼리 / 트리와 쿼리 12](/study/algorithms/unsorted/boj-16911-16912/)
 - [11410. **칙칙폭폭**](/study/algorithms/unsorted/boj-11410/)
 - [5647. **연속 합**](/study/algorithms/unsorted/boj-5647/)
 - [16695. **The Bridge on the River Kawaii**](/study/algorithms/unsorted/boj-16695/)
