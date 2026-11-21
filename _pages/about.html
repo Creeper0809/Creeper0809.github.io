@@ -1,134 +1,101 @@
 ---
-layout: default
+layout: single
 permalink: /about/
 title: "임용헌"
 excerpt: "네트워크 접근 제어와 비동기 백엔드를 개발하고, 인증 로그를 활용한 보안 모델을 연구합니다."
 classes: [about-profile]
+author_profile: false
+toc: true
 ---
 
-<main id="main" class="profile" lang="ko">
-  <header class="profile-hero">
-    <div class="profile-hero__intro">
-      <p class="profile-hero__focus">네트워크 · 백엔드 · 보안 연구</p>
-      <h1 id="page-title">{{ page.title | escape }}</h1>
-      <p class="profile-hero__summary">{{ page.excerpt | escape }}</p>
-      <div class="profile-hero__links">
-        <a class="profile-button profile-button--primary" href="https://github.com/Creeper0809">GitHub <span aria-hidden="true">↗</span></a>
-        <a class="profile-button profile-button--outline" href="{{ '/tags/' | relative_url }}">알고리즘 풀이 <span aria-hidden="true">→</span></a>
-      </div>
-    </div>
-    <dl class="profile-highlights">
-      <div>
-        <dt>월별 보고서 조회 p95</dt>
-        <dd class="profile-highlights__value"><span class="profile-highlights__before">167.9</span><span class="visually-hidden">밀리초에서</span><span aria-hidden="true">→</span><strong>13.5<span class="profile-highlights__unit"> ms</span></strong></dd>
-        <dd class="profile-highlights__context">합성 OpEx 데이터 15만 행 · 로컬 측정</dd>
-      </div>
-      <div>
-        <dt>오스트리아 공방전 운영</dt>
-        <dd class="profile-highlights__value"><strong>3<span class="profile-highlights__unit">개 대학</span></strong><span aria-hidden="true">·</span><strong>20<span class="profile-highlights__unit">명</span></strong></dd>
-        <dd class="profile-highlights__context">6시간 VPN 기반 공방전</dd>
-      </div>
-    </dl>
-  </header>
+<div class="profile" lang="ko">
+  <p>{{ page.excerpt | escape }}</p>
+  <p class="profile-links"><a href="https://github.com/Creeper0809">GitHub</a> · <a href="{{ '/tags/' | relative_url }}">알고리즘 풀이</a></p>
 
-  <div class="profile-layout">
-    <nav class="profile-nav" aria-label="프로필 목차">
-      <p>목차</p>
-      <ul>
-        <li><a href="#experience">경력</a></li>
-        <li><a href="#projects">연구·개발 프로젝트</a></li>
-        <li><a href="#publications">논문·학술발표</a></li>
-        <li><a href="#recognition">수상·활동</a></li>
-        <li><a href="#education">학력·교육 및 자격</a></li>
+  <section class="profile-section profile-skills" aria-labelledby="skills">
+    <h2 id="skills">사용 기술</h2>
+    <ul>
+      <li>Python</li><li>C#</li><li>C++</li><li>FastAPI</li><li>SQLAlchemy</li><li>PostgreSQL</li><li>Docker</li><li>OpenVPN</li>
+    </ul>
+  </section>
+
+  <section class="profile-section" aria-labelledby="experience">
+    <h2 id="experience">경력</h2>
+    <div class="profile-timeline">
+      <article class="profile-card profile-timeline__entry">
+        <div class="profile-card__heading">
+          <div><h3 class="no_toc">SK하이닉스 프로젝트</h3><p class="profile-role">프리랜서</p></div>
+          <p class="profile-date">2026.10–2026.11</p>
+        </div>
+        <p>CapEx, OpEx, OI 월별 경영관리 보고서의 AI 분석과 채팅 API를 개발했습니다. LangGraph로 분석 흐름을 구성하고, 집계값이 같은 화면은 한 번의 LLM 호출 결과를 공유하도록 했습니다.</p>
+        <p>업로드 시 월별 합계를 미리 계산하도록 변경했습니다. 합성 OpEx 데이터 15만 행을 로컬에서 변경 전후 30회씩 조회했을 때 p95 응답 시간이 167.9ms에서 13.5ms로 줄었습니다.</p>
+      </article>
+      <article class="profile-card profile-timeline__entry">
+        <div class="profile-card__heading">
+          <div><h3 class="no_toc">클라우드에어</h3><p class="profile-role">인턴</p></div>
+          <p class="profile-date">2025.12–2026.07</p>
+        </div>
+        <p>팀장으로 청주대학교 CTF와 오스트리아 공방전 플랫폼의 개발과 운영을 맡았습니다. OpenVPN으로 팀별 관리망을 분리하고, 배포 자동화와 네트워크 관리 API를 개발했습니다.</p>
+        <p>오스트리아 행사에서 3개 대학 20명이 참가한 6시간 공방전을 운영했습니다. VPN 재접속이 반복되자 두 프로세스로 연결을 분산했습니다. 참가자는 기존 설정 파일로 다시 접속해 경기를 이어 갔습니다.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="profile-section" aria-labelledby="projects">
+    <h2 id="projects">연구·개발 프로젝트</h2>
+    <div class="profile-projects">
+      <article class="profile-card">
+        <p class="profile-date">2026.05–2026.11</p>
+        <h3 class="no_toc">ZTNA 접근 위험도 모델</h3>
+        <p>엠엘소프트 협력 국가 연구 과제에서 팀장을 맡았습니다. 인증 로그와 접속 이력으로 접근 위험도를 평가하는 모델의 입력과 비교 실험을 설계하고, 제1저자로 논문을 작성했습니다.</p>
+      </article>
+      <article class="profile-card">
+        <p class="profile-date">2025.06부터</p>
+        <h3 class="no_toc">한국어 PCFG와 병렬 스트리밍</h3>
+        <p>중복 상태를 공유해 메모리 사용량을 줄이는 C++ 후보 생성기 CQDAGPCFG와, 전송이 끝난 배치의 메모리를 회수하는 스트리밍 프로토콜을 구현했습니다.</p>
+      </article>
+      <article class="profile-card">
+        <p class="profile-date">2025.10–2026.08</p>
+        <h3 class="no_toc">PQC-Based Fuzzy Extractor</h3>
+        <p>BCH 기반 퍼지 추출기의 타이밍 누설을 분석하고, Classic McEliece 기반 상수시간 디코딩을 연구했습니다.</p>
+      </article>
+      <article class="profile-card">
+        <p class="profile-date">2026.02–2026.11</p>
+        <h3 class="no_toc">B++ 언어와 온라인 학습 플랫폼</h3>
+        <p>시간·공간 복잡도 제한을 컴파일 단계에서 검사하는 언어와 컴파일러를 개발했습니다. 컴파일 과정 시각화와 제출 코드 자동 채점을 웹에 구현했습니다.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="profile-section" aria-labelledby="publications">
+    <h2 id="publications">논문·학술발표</h2>
+    <ul class="profile-list profile-list--publications">
+      <li><div><h3 class="no_toc">ACM CCS 2026 포스터</h3><p>CQDAGPCFG 기반 병렬 후보 생성과 스트리밍 프로토콜 연구</p></div><p class="profile-list__meta"><time datetime="2026-11">2026.11</time><span>제1저자 · 프로시딩 게재</span></p></li>
+      <li><div><h3 class="no_toc">융합보안논문지</h3><p>가변 필드 어텐션과 행동 시퀀스 Bi-LSTM을 결합한 ZTNA 환경의 Trust Score 산정 모델</p></div><p class="profile-list__meta"><time datetime="2026-11">2026.11</time><span>제1저자 · 게재 승인</span></p></li>
+      <li><div><h3 class="no_toc">IET Information Security</h3><p>A Constant-Time Fuzzy Extractor Based on Classic McEliece for Mitigating Timing Side-Channel Leakage</p></div><p class="profile-list__meta"><time datetime="2026-09">2026.09</time><span>제1저자 · 심사 중</span></p></li>
+      <li><div><h3 class="no_toc">정보보호학회논문지</h3><p><a href="https://doi.org/10.13089/JKIISC.2026.36.4.1099">상수시간으로 구현된 BCH 기반 퍼지 추출기의 타이밍 공격 취약성 실험 분석</a></p></div><p class="profile-list__meta"><time datetime="2026-08">2026.08</time><span>제1저자 · 게재</span></p></li>
+      <li><div><h3 class="no_toc">WISA 2025 포스터</h3><p>한국어 사용자 특화 PCFG 비밀번호 추측 모델 연구</p><a class="profile-source-link" href="https://www.manuscriptlink.com/society/kiisc/conference/wisa2025/program">학회 프로그램 <span aria-hidden="true">↗</span></a></div><p class="profile-list__meta"><time datetime="2025-08">2025.08</time><span>제1저자 발표</span></p></li>
+    </ul>
+  </section>
+
+  <div class="profile-details">
+    <section class="profile-section" aria-labelledby="recognition">
+      <h2 id="recognition">수상·활동</h2>
+      <ul class="profile-list">
+        <li><h3 class="no_toc">청주대학교 캡스톤 경진대회 최우수상</h3><p>2026.06 · B++ 언어와 온라인 컴파일러</p></li>
+        <li><h3 class="no_toc">제2회 충청북도 대학생 프로그래밍 경진대회 장려상</h3><p>2023.07</p></li>
+        <li><h3 class="no_toc">제10회 소개딩 SW 개발 보안 경진대회 행정안전부장관상(우수상)</h3><p>2023.06 · 홍수 재난 문자 알림 서비스</p></li>
+        <li><h3 class="no_toc">Shopify 버그바운티</h3><p>2026.07경 · HackerOne에 Low 등급 취약점 제보 및 포상</p></li>
       </ul>
-    </nav>
+    </section>
 
-    <div class="profile-content">
-      <section class="profile-section" id="experience" aria-labelledby="experience-title">
-        <h2 id="experience-title">경력</h2>
-        <div class="profile-timeline">
-          <article class="profile-card profile-timeline__entry">
-            <div class="profile-card__heading">
-              <div><h3>SK하이닉스 프로젝트</h3><p class="profile-role">프리랜서</p></div>
-              <p class="profile-date">2026.10–2026.11</p>
-            </div>
-            <p>CapEx, OpEx, OI 월별 경영관리 보고서의 AI 분석과 채팅 API를 개발했습니다. LangGraph로 분석 흐름을 구성하고, 집계값이 같은 화면은 한 번의 LLM 호출 결과를 공유하도록 했습니다.</p>
-            <p>업로드 시 월별 합계를 미리 계산하도록 변경했습니다. 변경 전후로 같은 합성 데이터를 로컬에서 각각 30회씩 조회해 응답 시간을 비교했습니다.</p>
-          </article>
-          <article class="profile-card profile-timeline__entry">
-            <div class="profile-card__heading">
-              <div><h3>클라우드에어</h3><p class="profile-role">인턴</p></div>
-              <p class="profile-date">2025.12–2026.07</p>
-            </div>
-            <p>팀장으로 청주대학교 CTF와 오스트리아 공방전 플랫폼의 개발과 운영을 맡았습니다. OpenVPN으로 팀별 관리망을 분리하고, 배포 자동화와 네트워크 관리 API를 개발했습니다.</p>
-            <p>오스트리아 행사에서 VPN 재접속이 반복되자 두 프로세스로 연결을 분산했습니다. 참가자는 기존 설정 파일로 다시 접속해 경기를 이어 갔습니다.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="profile-section" id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">연구·개발 프로젝트</h2>
-        <div class="profile-projects">
-          <article class="profile-card">
-            <p class="profile-date">2026.05–2026.11</p>
-            <h3>ZTNA 접근 위험도 모델</h3>
-            <p>엠엘소프트 협력 국가 연구 과제에서 팀장을 맡았습니다. 인증 로그와 접속 이력으로 접근 위험도를 평가하는 모델의 입력과 비교 실험을 설계하고, 제1저자로 논문을 작성했습니다.</p>
-          </article>
-          <article class="profile-card">
-            <p class="profile-date">2025.06부터</p>
-            <h3>한국어 PCFG와 병렬 스트리밍</h3>
-            <p>중복 상태를 공유해 메모리 사용량을 줄이는 C++ 후보 생성기 CQDAGPCFG와, 전송이 끝난 배치의 메모리를 회수하는 스트리밍 프로토콜을 구현했습니다.</p>
-          </article>
-          <article class="profile-card">
-            <p class="profile-date">2025.10–2026.08</p>
-            <h3>PQC-Based Fuzzy Extractor</h3>
-            <p>BCH 기반 퍼지 추출기의 타이밍 누설을 분석하고, Classic McEliece 기반 상수시간 디코딩을 연구했습니다.</p>
-          </article>
-          <article class="profile-card">
-            <p class="profile-date">2026.02–2026.11</p>
-            <h3>B++ 언어와 온라인 학습 플랫폼</h3>
-            <p>시간·공간 복잡도 제한을 컴파일 단계에서 검사하는 언어와 컴파일러를 개발했습니다. 컴파일 과정 시각화와 제출 코드 자동 채점을 웹에 구현했습니다.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="profile-section" id="publications" aria-labelledby="publications-title">
-        <h2 id="publications-title">논문·학술발표</h2>
-        <ul class="profile-list profile-list--publications">
-          <li><div><h3>ACM CCS 2026 포스터</h3><p>CQDAGPCFG 기반 병렬 후보 생성과 스트리밍 프로토콜 연구</p></div><p class="profile-list__meta"><time datetime="2026-11">2026.11</time><span>제1저자 · 프로시딩 게재</span></p></li>
-          <li><div><h3>융합보안논문지</h3><p>가변 필드 어텐션과 행동 시퀀스 Bi-LSTM을 결합한 ZTNA 환경의 Trust Score 산정 모델</p></div><p class="profile-list__meta"><time datetime="2026-11">2026.11</time><span>제1저자 · 게재 승인</span></p></li>
-          <li><div><h3>IET Information Security</h3><p>A Constant-Time Fuzzy Extractor Based on Classic McEliece for Mitigating Timing Side-Channel Leakage</p></div><p class="profile-list__meta"><time datetime="2026-09">2026.09</time><span>제1저자 · 심사 중</span></p></li>
-          <li><div><h3>정보보호학회논문지</h3><p><a href="https://doi.org/10.13089/JKIISC.2026.36.4.1099">상수시간으로 구현된 BCH 기반 퍼지 추출기의 타이밍 공격 취약성 실험 분석</a></p></div><p class="profile-list__meta"><time datetime="2026-08">2026.08</time><span>제1저자 · 게재</span></p></li>
-          <li><div><h3>WISA 2025 포스터</h3><p>한국어 사용자 특화 PCFG 비밀번호 추측 모델 연구</p><a class="profile-source-link" href="https://www.manuscriptlink.com/society/kiisc/conference/wisa2025/program">학회 프로그램 <span aria-hidden="true">↗</span></a></div><p class="profile-list__meta"><time datetime="2025-08">2025.08</time><span>제1저자 발표</span></p></li>
-        </ul>
-      </section>
-
-      <div class="profile-details">
-        <section class="profile-section" id="recognition" aria-labelledby="recognition-title">
-          <h2 id="recognition-title">수상·활동</h2>
-          <ul class="profile-list">
-            <li><h3>청주대학교 캡스톤 경진대회 최우수상</h3><p>2026.06 · B++ 언어와 온라인 컴파일러</p></li>
-            <li><h3>제2회 충청북도 대학생 프로그래밍 경진대회 장려상</h3><p>2023.07</p></li>
-            <li><h3>제10회 소개딩 SW 개발 보안 경진대회 행정안전부장관상(우수상)</h3><p>2023.06 · 홍수 재난 문자 알림 서비스</p></li>
-            <li><h3>Shopify 버그바운티</h3><p>2026.07경 · HackerOne에 Low 등급 취약점 제보 및 포상</p></li>
-          </ul>
-        </section>
-
-        <section class="profile-section" id="education" aria-labelledby="education-title">
-          <h2 id="education-title">학력·교육 및 자격</h2>
-          <ul class="profile-list">
-            <li><h3>청주대학교 인공지능소프트웨어학과</h3><p>2027.02 졸업 예정 · 학점 3.8 / 4.5</p></li>
-            <li><h3>넷마블 아카데미 6기 게임 개발 교육 수료</h3><p>2021.06–2021.12</p></li>
-            <li><h3>정보처리기능사</h3><p>2022.02 · 한국산업인력공단</p></li>
-          </ul>
-          <div class="profile-skills">
-            <h3>사용 기술</h3>
-            <ul aria-label="사용 기술">
-              <li>Python</li><li>C#</li><li>C++</li><li>FastAPI</li><li>SQLAlchemy</li><li>PostgreSQL</li><li>Docker</li><li>OpenVPN</li>
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div>
+    <section class="profile-section" aria-labelledby="education">
+      <h2 id="education">학력·교육 및 자격</h2>
+      <ul class="profile-list">
+        <li><h3 class="no_toc">청주대학교 인공지능소프트웨어학과</h3><p>2027.02 졸업 예정 · 학점 3.8 / 4.5</p></li>
+        <li><h3 class="no_toc">넷마블 아카데미 6기 게임 개발 교육 수료</h3><p>2021.06–2021.12</p></li>
+        <li><h3 class="no_toc">정보처리기능사</h3><p>2022.02 · 한국산업인력공단</p></li>
+      </ul>
+    </section>
   </div>
-</main>
+</div>
