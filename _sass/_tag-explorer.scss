@@ -1,0 +1,139 @@
+.tag-explorer {
+  [hidden] {
+    display: none !important;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.25em;
+    font-size: 0.85em;
+    font-weight: bold;
+  }
+
+  input,
+  select {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+.tag-explorer__search {
+  margin-top: 1em;
+}
+
+.tag-explorer__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.5em;
+  margin: 0.75em 0 1em;
+  padding: 0;
+  font-size: 0.8em;
+  list-style: none;
+
+  @media (max-width: 36em) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  a {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75em;
+    height: 100%;
+    padding: 0.45em 0.65em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    color: inherit;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+
+    &:hover,
+    &:focus-visible,
+    &[aria-current="true"] {
+      border-color: $link-color;
+      color: $link-color;
+    }
+  }
+}
+
+.tag-explorer__grid--featured a {
+  font-weight: bold;
+}
+
+.tag-explorer__details {
+  border-top: 1px solid $border-color;
+
+  &:last-of-type {
+    border-bottom: 1px solid $border-color;
+  }
+
+  summary {
+    padding: 0.75em 0;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: bold;
+
+    span {
+      margin-left: 0.5em;
+      color: $muted-text-color;
+      font-size: 0.9em;
+      font-weight: normal;
+    }
+  }
+}
+
+.tag-explorer__filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75em;
+  padding-bottom: 0.75em;
+
+  @media (max-width: 36em) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.tag-explorer__results {
+  margin-top: 1.5em;
+  scroll-margin-top: 1em;
+}
+
+.tag-explorer__results-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+
+  .archive__subtitle,
+  .btn {
+    margin: 0;
+  }
+}
+
+.tag-explorer__feedback {
+  margin: 0.75em 0;
+  color: $muted-text-color;
+  font-size: 0.85em;
+}
+
+.tag-explorer__posts {
+  margin: 0 0 1em;
+  padding: 0;
+  font-size: 0.9em;
+  list-style: none;
+
+  li {
+    padding: 0.4em 0;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.tag-explorer__section {
+  display: none;
+}
+
+.tag-explorer:not([data-enhanced]) {
+  .tag-explorer__section:target,
+  .tag-explorer__alias:target + .tag-explorer__section {
+    display: block;
+  }
+}

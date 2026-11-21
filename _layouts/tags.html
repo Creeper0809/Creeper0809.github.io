@@ -4,39 +4,95 @@ layout: archive
 
 {{ content }}
 
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
-{% endfor %}
+{% assign explorer = site.data.tag_explorer %}
+{% assign tags = site.tags | sort %}
 
-<ul class="taxonomy__index">
-  {% for i in (1..tags_max) reversed %}
-    {% for tag in site.tags %}
-      {% if tag[1].size == i %}
-        <li>
-          <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
+<div class="tag-explorer" data-tag-explorer>
+  <div class="tag-explorer__search" data-tag-search hidden>
+    <label for="tag-search">태그 검색</label>
+    <input type="search" id="tag-search" placeholder="세그먼트 트리" autocomplete="off" aria-controls="tag-directory">
+  </div>
+
+  <section aria-labelledby="featured-tag-title" data-tag-featured>
+    <h2 id="featured-tag-title" class="archive__subtitle">대표 주제</h2>
+    <ul class="tag-explorer__grid tag-explorer__grid--featured">
+      {% for name in explorer.featured %}
+        {% assign posts = site.tags[name] %}
+        {% if posts and posts.size > 0 %}
+          {% assign slug = name | slugify %}
+          <li><a href="#{{ slug }}" data-tag-link="{{ slug }}">
+            <span>{{ name | escape }}</span><span class="taxonomy__count">{{ posts.size }}</span>
+          </a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <details class="tag-explorer__details" data-tag-filters hidden>
+    <summary>필터 <span>플랫폼 · 난이도 · 대회</span></summary>
+    <div class="tag-explorer__filters">
+      {% for filter in explorer.filters %}
+        <div>
+          <label for="tag-{{ filter[0] }}">{{ filter[1].label }}</label>
+          <select id="tag-{{ filter[0] }}" data-tag-filter="{{ filter[0] }}">
+            <option value="">전체</option>
+            {% for name in filter[1].tags %}
+              {% if site.tags[name] %}
+                <option value="{{ name | slugify }}">{{ name | escape }}</option>
+              {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+      {% endfor %}
+    </div>
+  </details>
+
+  <details class="tag-explorer__details" data-tag-directory>
+    <summary>전체 태그</summary>
+    <p class="tag-explorer__feedback" data-tag-search-status role="status" hidden></p>
+    <ul class="tag-explorer__grid" id="tag-directory">
+      {% for tag in tags %}
+        {% assign slug = tag[0] | slugify %}
+        {% assign group = 'topic' %}
+        {% for filter in explorer.filters %}
+          {% if filter[1].tags contains tag[0] %}
+            {% assign group = filter[0] %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        <li data-tag-entry="{{ slug }}" data-tag-group="{{ group }}"><a href="#{{ slug }}" data-tag-link="{{ slug }}">
+          <span data-tag-name>{{ tag[0] | escape }}</span><span class="taxonomy__count">{{ tag[1].size }}</span>
+        </a></li>
+      {% endfor %}
+    </ul>
+  </details>
+
+  <section class="tag-explorer__results" data-tag-results aria-labelledby="tag-results-title" hidden>
+    <div class="tag-explorer__results-header">
+      <h2 id="tag-results-title" class="archive__subtitle" tabindex="-1">관련 글</h2>
+      <button class="btn" type="button" data-tag-reset>선택 해제</button>
+    </div>
+    <p class="tag-explorer__feedback" data-tag-results-status role="status"></p>
+    <ul class="tag-explorer__posts" data-tag-posts></ul>
+    <button class="btn tag-explorer__more" type="button" data-tag-more hidden>글 더 보기</button>
+  </section>
+
+  {% for tag in tags %}
+    {% assign slug = tag[0] | slugify %}
+    {% for alias in explorer.aliases %}
+      {% if alias[1] == tag[0] %}
+        <span class="tag-explorer__alias" id="{{ alias[0] | slugify }}" data-tag-alias="{{ slug }}"></span>
       {% endif %}
     {% endfor %}
+    <section class="tag-explorer__section" id="{{ slug }}" data-tag-section>
+      <h2 class="archive__subtitle">{{ tag[0] | escape }}</h2>
+      <ul class="tag-explorer__posts">
+        {% for post in tag[1] %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title | escape_once }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
   {% endfor %}
-</ul>
+</div>
 
-{% for i in (1..tags_max) reversed %}
-  {% for tag in site.tags %}
-    {% if tag[1].size == i %}
-      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-        <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in tag.last %}
-            {% include archive-single.html type=page.entries_layout %}
-          {% endfor %}
-        </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+<script src="{{ '/assets/js/tag-explorer.js' | relative_url }}" defer></script>

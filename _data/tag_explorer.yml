@@ -1,0 +1,50 @@
+featured:
+  - 자료 구조
+  - 그래프
+  - 동적 계획법
+  - 탐색
+  - 그리디
+  - 문자열
+  - 정렬
+  - 구현
+  - 수학
+  - 정수론
+  - 기하학
+  - 게임 이론
+
+filters:
+  platform:
+    label: 플랫폼
+    tags: [백준, 프로그래머스, AtCoder, Codeforces]
+  difficulty:
+    label: 난이도
+    tags:
+      - 백준 실버
+      - 백준 골드
+      - 백준 플래티넘
+      - 백준 다이아몬드
+      - 백준 루비
+      - 프로그래머스 레벨 2
+      - 프로그래머스 레벨 3
+      - 프로그래머스 레벨 5
+  contest:
+    label: 대회
+    tags:
+      - 알고리즘 대회
+      - AtCoder Beginner Contest 435
+      - AtCoder Beginner Contest 436
+      - AtCoder Beginner Contest 437
+      - AtCoder Beginner Contest 454
+      - AtCoder Beginner Contest 455
+      - AtCoder Regular Contest 218
+      - Codeforces Round 1018
+      - Codeforces Round 1069
+      - ICPC
+      - ICPC NERC 2025-2026
+
+aliases:
+  실버: 백준 실버
+  골드: 백준 골드
+  플래티넘: 백준 플래티넘
+  다이아몬드: 백준 다이아몬드
+  루비: 백준 루비
