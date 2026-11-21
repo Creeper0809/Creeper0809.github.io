@@ -3,6 +3,8 @@ title: "F. Merge Slimes 2"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-455/f-merge-slimes-2/
 toc: true
 excerpt: "각 쿼리마다 어떤 구간에 값을 더한 뒤, 그 구간만 떼어 슬라임을 하나로 합칠 때의 최소 비용을 구한다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 455", "문제 풀이", "세그먼트 트리", "느리게 갱신되는 세그먼트 트리", "수식 정리", "모듈러 연산"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 455](/study/algorithms/competitive-programming/atcoder-beginner-contest-455/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/fast-fourier-transform/
 math: true
 toc: true
 excerpt: "즉 푸리에 변환은 기본적으로 시간 도메인(Time Domain)을 주파수 도메인(Frequency Domain)으로 변환시키는, 즉 시간에 대한 함수(혹은 신호)를 구성하고 있는 주파수 성분으로 분해하는 과정이다."
+categories: ["알고리즘"]
+tags: ["수학", "FFT"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -2,6 +2,8 @@
 title: "동치관계 / 닮음"
 permalink: /study/algorithms/math/symbols/dongcigwangye-dalmeum/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "관계"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

@@ -3,6 +3,8 @@ title: "Manacher's Algorithm"
 permalink: /study/algorithms/string/manacher-s-algorithm/
 toc: true
 excerpt: "문자열에서 모든 팰린드롬(회문)을 O(N) 시간에 찾아내는 알고리즘이다. 회문에만 사용하는 알고리즘이라 사용처는 적다."
+categories: ["알고리즘"]
+tags: ["문자열", "매내처"]
 ---
 
 [상위 페이지 · String](/study/algorithms/string/)

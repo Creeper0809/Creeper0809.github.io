@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/naejeog-gonggangwa-jiggyoseong/
 math: true
 toc: true
 excerpt: "내적은 두 벡터가 같은 방향을 얼마나 공유하는지 나타낸다. 벡터의 길이를 제거해 방향만 비교하면 코사인 유사도가 된다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

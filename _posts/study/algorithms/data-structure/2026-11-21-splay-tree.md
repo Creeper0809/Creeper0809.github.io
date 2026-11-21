@@ -3,6 +3,8 @@ title: "Splay Tree"
 permalink: /study/algorithms/data-structure/splay-tree/
 toc: true
 excerpt: "Splay 트리는 이진 탐색 트리의 한 종류로, 자주 접근하는 노드를 루트에 가깝게 재배치하는 자가 조정(self-adjusting) 자료구조이다. 기본적인 아이디어는 접근한 노드를 일정한 규칙의 “rotate” 연산인 \"splay\" 연산을 통해 루트로 끌어올리는 것이다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "스플레이 트리", "트리"]
 ---
 
 [상위 페이지 · Data Structure](/study/algorithms/data-structure/)

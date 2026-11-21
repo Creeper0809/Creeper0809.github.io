@@ -3,6 +3,8 @@ title: "Topological Sort"
 permalink: /study/algorithms/graph/topological-sort/
 toc: true
 excerpt: "위상 정렬은 유향 그래프에서 모든 간선의 시작 정점이 도착 정점보다 먼저 오도록 정점을 나열하는 방법이다."
+categories: ["알고리즘"]
+tags: ["그래프", "위상 정렬"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

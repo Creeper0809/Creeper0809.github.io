@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/begteo-gonggangwa-seonhyeong-byeonh
 math: true
 toc: true
 excerpt: "벡터 공간은 벡터의 덧셈과 스칼라 곱이 정의되고, 그 연산이 일정한 규칙을 만족하는 집합이다. 벡터는 단순히 숫자 화살표만 의미하지 않는다. 함수, 행렬, 다항식처럼 덧셈과 스칼라 곱이 가능한 대상도 벡터가 될 수 있다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

@@ -2,6 +2,8 @@
 title: "C. Wonderful City"
 permalink: /study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/c-wonderful-city/
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "Codeforces", "Codeforces Round 1018", "문제 풀이", "동적 계획법"]
 ---
 
 [상위 페이지 · Codeforce Round 1018 (Div. 1+Div. 2)](/study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/)

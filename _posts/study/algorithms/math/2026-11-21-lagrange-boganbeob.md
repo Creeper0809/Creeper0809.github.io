@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/lagrange-boganbeob/
 math: true
 toc: true
 excerpt: "라그랑주 보간법은 수치 해석학에서 주어진 데이터 점들의 집합을 지나는 가장 낮은 차수의 다항식을 찾는 방법이다. 1795년 조제프루이 라그랑주(Joseph-Louis Lagrange)가 발표하여 그의 이름이 붙었으나, 실제로는 1779년 에드워드 웨어링(Edward Waring)이 먼저 발견했다."
+categories: ["알고리즘"]
+tags: ["수학", "Lagrange 보간법"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

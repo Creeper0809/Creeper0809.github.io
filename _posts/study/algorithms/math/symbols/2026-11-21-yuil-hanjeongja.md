@@ -2,6 +2,8 @@
 title: "유일 한정자"
 permalink: /study/algorithms/math/symbols/yuil-hanjeongja/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "논리"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

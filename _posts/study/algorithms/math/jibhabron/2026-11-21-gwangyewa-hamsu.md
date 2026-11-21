@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/jibhabron/gwangyewa-hamsu/
 math: true
 toc: true
 excerpt: "앞서 우리는 '집합'이라는 개념을 통해 원소들을 모으고, 합집합, 교집합 등 집합 자체를 연산하는 방법을 배웠다. 이제부터는 한 걸음 더 나아가, 두 집합의 원소들을 서로 '연결'하고 '짝짓는' 방법에 대해 배운다. 이 '연결' 또는 '짝지음'을 수학적으로 엄밀하게 정의한 것이 바로 관계 이며, 이 관계 중에서 매우 특별하고 유용한 규칙을 만족하는 것이 함수 이다."
+categories: ["알고리즘"]
+tags: ["수학", "집합론"]
 ---
 
 [상위 페이지 · 집합론](/study/algorithms/math/jibhabron/)

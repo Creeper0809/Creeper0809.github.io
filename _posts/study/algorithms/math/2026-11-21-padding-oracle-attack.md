@@ -3,6 +3,8 @@ title: "Padding Oracle Attack"
 permalink: /study/algorithms/math/padding-oracle-attack/
 toc: true
 excerpt: "Padding Oracle Attack은 암호문을 해독하기 위해 서버의 패딩 검증 응답 을 악용하는 부채널 공격이다."
+categories: ["알고리즘"]
+tags: ["수학", "암호학", "Padding Oracle Attack"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

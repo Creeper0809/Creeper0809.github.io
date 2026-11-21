@@ -3,6 +3,8 @@ title: "B - No-Divisible Range"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-435/b-no-divisible-range/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 435", "문제 풀이", "수학", "구현"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 435](/study/algorithms/competitive-programming/atcoder-beginner-contest-435/)

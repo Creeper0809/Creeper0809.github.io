@@ -4,6 +4,8 @@ permalink: /study/algorithms/graph/bellman-ford/
 math: true
 toc: true
 excerpt: "벨만 포드 알고리즘은 시작 정점 하나에서 모든 정점까지의 최단 거리를 구하는 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["그래프", "벨만 포드", "최단 경로"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

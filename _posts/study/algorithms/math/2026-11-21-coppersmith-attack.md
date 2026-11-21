@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/coppersmith-attack/
 math: true
 toc: true
 excerpt: "Coppersmith 정리는 모듈러 다항식 방정식에서 특정 범위 내의 작은 근을 다항 시간 내에 찾을 수 있음을 보장하는 강력한 이론적 도구이다. 이 정리는 LLL 격자 기저 축약 알고리즘을 핵심 기법으로 활용한다."
+categories: ["알고리즘"]
+tags: ["수학", "암호학", "Coppersmith Attack"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

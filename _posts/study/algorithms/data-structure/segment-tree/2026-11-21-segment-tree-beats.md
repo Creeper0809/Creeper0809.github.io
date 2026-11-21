@@ -3,6 +3,8 @@ title: "Segment Tree Beats"
 permalink: /study/algorithms/data-structure/segment-tree/segment-tree-beats/
 toc: true
 excerpt: "세그먼트 트리 비츠(Segment Tree Beats)는 일반적인 세그먼트 트리에 여러 가지 고급 기능을 추가하여, 구간 최댓값·최솟값 제한(Chmin/Chmax), 구간 덧셈, 구간 합 등 복잡한 연산을 모두 효율적으로 처리할 수 있도록 만든 자료구조이다. 전통적인 세그먼트 트리에서는 구간에 값을 덮어씌우거나(Assign), 구간에 추가(Add), 구간 합(Query) 정도만을 지원하지만, 세그먼트 트리 비츠는 그보다 더 복잡한 조건(예: \"구간 [l, r] 내에서 x보다 큰 모든 값을 x로 바꾸고, 해당 구간의 합을 구한다\")을 모두 O(logN) 수준으로 수행할 수 있게"
+categories: ["알고리즘"]
+tags: ["자료 구조", "세그먼트 트리", "세그먼트 트리 비츠"]
 ---
 
 [상위 페이지 · Segment Tree](/study/algorithms/data-structure/segment-tree/)

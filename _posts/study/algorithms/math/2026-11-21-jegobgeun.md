@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/jegobgeun/
 math: true
 toc: true
 excerpt: "제곱의 결과를 제곱수 라고 부른다. 양수든 음수든 제곱하면 항상 0 이상의 수가 된다."
+categories: ["알고리즘"]
+tags: ["수학", "제곱근"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

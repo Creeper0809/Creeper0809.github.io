@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/bostan-mori/
 math: true
 toc: true
 excerpt: "Bostan-Mori 알고리즘의 핵심은 유리 함수의 계수를 구하는 문제를 반복적으로 절반씩 줄여나가는 분할 정복 기법이다. 이 과정에서 분모 다항식의 홀수 차수 항과 짝수 차수 항을 분리하는 독창적인 아이디어를 사용한다."
+categories: ["알고리즘"]
+tags: ["수학", "Bostan-Mori"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

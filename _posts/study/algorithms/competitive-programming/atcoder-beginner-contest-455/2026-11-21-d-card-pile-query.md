@@ -3,6 +3,8 @@ title: "D. Card Pile Query"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-455/d-card-pile-query/
 toc: true
 excerpt: "카드 1부터 N까지와 카드 더미 1부터 N까지가 있다. 처음에는 i번 더미에 i번 카드만 하나 들어 있다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 455", "문제 풀이", "구현", "연결 구조", "배열로 링크드 리스트 흉내내기"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 455](/study/algorithms/competitive-programming/atcoder-beginner-contest-455/)

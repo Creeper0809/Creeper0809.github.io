@@ -3,6 +3,8 @@ title: "F - Cat exercise"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-435/f-cat-exercise/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 435", "문제 풀이", "자료 구조", "트리에서의 DP", "데카르트 트리", "최대힙"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 435](/study/algorithms/competitive-programming/atcoder-beginner-contest-435/)

@@ -2,6 +2,8 @@
 title: "무한집합과 기수"
 permalink: /study/algorithms/math/jibhabron/muhanjibhabgwa-gisu/
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "집합론"]
 ---
 
 [상위 페이지 · 집합론](/study/algorithms/math/jibhabron/)

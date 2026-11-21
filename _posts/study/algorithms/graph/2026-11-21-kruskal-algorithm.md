@@ -3,6 +3,8 @@ title: "Kruskal Algorithm"
 permalink: /study/algorithms/graph/kruskal-algorithm/
 toc: true
 excerpt: "크루스칼(Kruskal) 알고리즘은 최소 비용 신장 트리(Minimum Spanning Tree)를 구하는 알고리즘 중 하나이다."
+categories: ["알고리즘"]
+tags: ["그래프", "크루스칼", "최소 스패닝 트리"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/bolcano-baieosyuteuraseu-jeongri/
 math: true
 toc: true
 excerpt: "우리는 위와 같은 방법을 통해 다음과 같은 결과를 얻어 낼 수 있다."
+categories: ["알고리즘"]
+tags: ["수학", "미적분학", "볼차노-바이어슈트라스 정리"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

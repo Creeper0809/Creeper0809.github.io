@@ -2,6 +2,8 @@
 title: "음의 부호"
 permalink: /study/algorithms/math/symbols/eumyi-buho/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "기본 연산"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

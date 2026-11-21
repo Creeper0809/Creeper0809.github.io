@@ -2,6 +2,8 @@
 title: "P2.전력망 둘로 나누기"
 permalink: /study/algorithms/search/silver-level-2/p2-jeonryeogmang-dulro-nanugi/
 toc: true
+categories: ["알고리즘"]
+tags: ["탐색", "프로그래머스", "프로그래머스 레벨 2", "문제 풀이", "분리 집합", "완전 탐색"]
 ---
 
 [상위 페이지 · 실버/레벨2](/study/algorithms/search/silver-level-2/)

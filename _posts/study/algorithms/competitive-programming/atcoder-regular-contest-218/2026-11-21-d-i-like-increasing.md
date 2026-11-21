@@ -4,6 +4,8 @@ permalink: /study/algorithms/competitive-programming/atcoder-regular-contest-218
 math: true
 toc: true
 excerpt: "X의 비어 있지 않은 부분수열이 가질 수 있는 점수의 최댓값을 M이라고 하자. 점수가 M인 비어 있지 않은 부분수열 중 길이의 최솟값을 구한다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Regular Contest 218", "문제 풀이", "세그먼트 트리", "함수 합성", "그리디", "순열"]
 ---
 
 [상위 페이지 · AtCoder Regular Contest 218](/study/algorithms/competitive-programming/atcoder-regular-contest-218/)

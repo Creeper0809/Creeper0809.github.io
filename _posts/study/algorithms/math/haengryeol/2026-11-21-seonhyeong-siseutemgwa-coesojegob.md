@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/seonhyeong-siseutemgwa-coesojegob/
 math: true
 toc: true
 excerpt: "가우스 소거법은 기본 행 연산으로 행렬을 삼각형 형태로 바꾸고 후진대입으로 해를 구한다. 가우스-조르당 소거법은 기약 행 사다리꼴까지 변환한다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

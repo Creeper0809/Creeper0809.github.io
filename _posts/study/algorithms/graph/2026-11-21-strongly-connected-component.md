@@ -4,6 +4,8 @@ permalink: /study/algorithms/graph/strongly-connected-component/
 math: true
 toc: true
 excerpt: "SCC란 유향 그래프(Directed Graph) 안에서 서로 강하게 연결되어 있는 정점들의 부분집합을 의미한다. 즉, 같은 SCC에 속한 모든 정점들은 서로 도달 가능한 경로가 존재한다."
+categories: ["알고리즘"]
+tags: ["그래프", "강한 연결 요소"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

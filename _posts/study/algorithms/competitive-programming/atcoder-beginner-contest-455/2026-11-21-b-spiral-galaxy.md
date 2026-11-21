@@ -4,6 +4,8 @@ permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-45
 math: true
 toc: true
 excerpt: "그 직사각형을 중심 기준으로 180도 회전했을 때 색 배치가 그대로 같으면 정답에 포함한다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 455", "문제 풀이", "완전 탐색", "구현", "격자", "대칭성"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 455](/study/algorithms/competitive-programming/atcoder-beginner-contest-455/)

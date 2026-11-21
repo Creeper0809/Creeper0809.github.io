@@ -3,6 +3,8 @@ title: "Union-Find"
 permalink: /study/algorithms/graph/union-find/
 toc: true
 excerpt: "Union-Find 알고리즘은 분리 집합 또는 서로소 집합( Disjoint-Set )을 표현하고 관리하는 알고리즘이다. 이는 겹치는 원소가 없는 여러 집합을 표현하고, 이들을 효율적으로 합치고 찾을 수 있는 자료구조와 알고리즘을 의미한다."
+categories: ["알고리즘"]
+tags: ["그래프", "분리 집합"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

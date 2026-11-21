@@ -2,6 +2,8 @@
 title: "측정에서의 범위"
 permalink: /study/algorithms/math/symbols/ceugjeongeseoyi-beomwi/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "기본 연산"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

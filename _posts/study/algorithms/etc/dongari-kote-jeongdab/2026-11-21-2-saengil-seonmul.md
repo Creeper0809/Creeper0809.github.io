@@ -2,6 +2,8 @@
 title: "2. 생일 선물"
 permalink: /study/algorithms/etc/dongari-kote-jeongdab/2-saengil-seonmul/
 toc: true
+categories: ["알고리즘"]
+tags: ["코딩 테스트", "문제 풀이", "수학", "일차식 변형"]
 ---
 
 [상위 페이지 · 동아리 코테 정답](/study/algorithms/etc/dongari-kote-jeongdab/)

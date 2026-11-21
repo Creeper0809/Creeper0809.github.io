@@ -3,6 +3,8 @@ title: "E - Minimum Swap"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-436/e-minimum-swap/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 436", "문제 풀이", "순열 사이클 분해", "그래프", "조합론", "깊이 우선 탐색"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 436](/study/algorithms/competitive-programming/atcoder-beginner-contest-436/)

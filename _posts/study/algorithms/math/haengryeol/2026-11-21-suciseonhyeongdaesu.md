@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/suciseonhyeongdaesu/
 math: true
 toc: true
 excerpt: "컴퓨터는 실수를 유한한 비트로 표현하므로 반올림 오차가 발생한다. 수학적으로 같은 식도 계산 순서와 알고리즘에 따라 오차가 크게 달라질 수 있다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

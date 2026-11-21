@@ -3,6 +3,8 @@ title: "페르마의 소정리/오일러 정리"
 permalink: /study/algorithms/math/pereumayi-sojeongri-oilreo-jeongri/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "페르마의 소정리/오일러 정리"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-45
 math: true
 toc: true
 excerpt: "아이템은 1번부터 N번까지 있다. 처음에는 1번 아이템만 가지고 있다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 454", "문제 풀이", "그래프", "너비 우선 탐색", "도달 가능성"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 454](/study/algorithms/competitive-programming/atcoder-beginner-contest-454/)

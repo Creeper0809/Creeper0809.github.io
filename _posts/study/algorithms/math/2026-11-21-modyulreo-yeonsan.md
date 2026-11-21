@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/modyulreo-yeonsan/
 math: true
 toc: true
 excerpt: "모듈러 연산은 정수를 특정 수로 나눈 나머지가 같을 때 두 정수를 동일하게 취급하는 연산이다."
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "모듈러 연산"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

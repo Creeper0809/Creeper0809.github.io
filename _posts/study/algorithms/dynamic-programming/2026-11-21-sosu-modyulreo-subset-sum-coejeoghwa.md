@@ -3,6 +3,8 @@ title: "소수 모듈러 Subset Sum 최적화"
 permalink: /study/algorithms/dynamic-programming/sosu-modyulreo-subset-sum-coejeoghwa/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["동적 계획법", "부분집합 합", "모듈러 연산", "소수 모듈러 Subset Sum 최적화"]
 ---
 
 [상위 페이지 · Dynamic Programming](/study/algorithms/dynamic-programming/)

@@ -3,6 +3,8 @@ title: "Convex Hull"
 permalink: /study/algorithms/math/convex-hull/
 toc: true
 excerpt: "볼록 껍질이란 2차원 평면상의 점들을 모두 포함하는 가장 작은 볼록 다각형을 의미한다. 그라함 스캔(Graham's Scan)은 이러한 볼록 껍질을 찾는 대표적인 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["수학", "볼록 껍질", "기하학"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

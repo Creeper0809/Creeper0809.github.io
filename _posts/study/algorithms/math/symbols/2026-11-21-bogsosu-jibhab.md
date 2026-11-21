@@ -2,6 +2,8 @@
 title: "복소수 집합"
 permalink: /study/algorithms/math/symbols/bogsosu-jibhab/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "수 체계"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

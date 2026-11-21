@@ -3,6 +3,8 @@ title: "Erdős-Ginzburg-Ziv"
 permalink: /study/algorithms/math/erdos-ginzburg-ziv/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "EGZ 정리", "조합론"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

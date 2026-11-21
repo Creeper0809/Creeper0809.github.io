@@ -4,6 +4,8 @@ permalink: /study/algorithms/graph/bipartite-matching/
 math: true
 toc: true
 excerpt: "이분 매칭은 그래프 이론에서 사용되는 알고리즘으로, 두 개의 그룹으로 나누어진 정점들이 각각 다른 그룹에 있는 정점들과 연결되도록 매칭시키는 알고리즘이다. 이 알고리즘은 매우 효율적으로 구현될 수 있고, 다양한 분야에서 활용된다."
+categories: ["알고리즘"]
+tags: ["그래프", "이분 매칭"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/competitive-programming/atcoder-regular-contest-218
 math: true
 toc: true
 excerpt: "예시로 N이 2, M이 2이고 두 수열이 다음과 같다고 하자."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Regular Contest 218", "문제 풀이", "기여도 분해", "여사건", "모듈러 연산"]
 ---
 
 [상위 페이지 · AtCoder Regular Contest 218](/study/algorithms/competitive-programming/atcoder-regular-contest-218/)

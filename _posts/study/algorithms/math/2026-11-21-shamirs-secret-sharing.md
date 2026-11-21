@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/shamirs-secret-sharing/
 math: true
 toc: true
 excerpt: "**Shamir's Secret Sharing (SSS)**은 1979년 Adi Shamir가 고안한 암호화 알고리즘으로, 하나의 비밀을 여러 조각으로 나누어 분산 저장하는 방식이다."
+categories: ["알고리즘"]
+tags: ["수학", "암호학", "Shamir’s Secret Sharing"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

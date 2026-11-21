@@ -3,6 +3,8 @@ title: "최장 증가 부분 수열(LIS)"
 permalink: /study/algorithms/math/coejang-jeungga-bubun-suyeol-lis/
 math: true
 excerpt: "최장 증가 부분 수열(Longest Increasing Subsequence)은 주어진 수열에서 증가하는 부분 수열 중 가장 긴 것을 찾는 문제이다."
+categories: ["알고리즘"]
+tags: ["수학", "최장 증가 부분 수열", "동적 계획법"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -2,6 +2,8 @@
 title: "F. Fragmented Nim"
 permalink: /study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/f-fragmented-nim/
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "ICPC", "ICPC NERC 2025-2026", "문제 풀이", "그리디", "게임 이론"]
 ---
 
 [상위 페이지 · 2025-2026 ICPC, NERC, Northern Eurasia Finals](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/)

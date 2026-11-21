@@ -4,6 +4,8 @@ permalink: /study/algorithms/graph/maximum-flow/
 math: true
 toc: true
 excerpt: "최대 유량(Maximum Flow Problem)은 네트워크 플로우 이론에서 중요한 알고리즘이다. 이 문제는 Source에서 Sink로 가는 그래프에서, 가능한 최대로 유량을 흘려보내는 방법을 찾는 것이다. 각 간선은 유량이 통과할 수 있는 최대 용량을 가지고 있으며, 우리의 목표는 이 제약조건을 지키면서 소스에서 싱크로 최대한 많은 유량을 보내는 것이다."
+categories: ["알고리즘"]
+tags: ["그래프", "최대 유량"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

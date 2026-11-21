@@ -3,6 +3,8 @@ title: "Fenwick Tree"
 permalink: /study/algorithms/data-structure/segment-tree/fenwick-tree/
 toc: true
 excerpt: "펜윅 트리는 1994년 Peter M. Fenwick가 제안한 자료구조로, 구간 합을 구하거나 값을 업데이트하는 연산을 효율적으로 수행할 수 있는 자료구조이다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "세그먼트 트리"]
 ---
 
 [상위 페이지 · Segment Tree](/study/algorithms/data-structure/segment-tree/)

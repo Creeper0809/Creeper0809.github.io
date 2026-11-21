@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/gibon-daesanggwa-yeonsan/
 math: true
 toc: true
 excerpt: "선형대수학에서 기본대상인 벡터 , 행렬 , 일차함수 는 데이터를 다루고 분석하는데 사용하는 언어 와 같다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

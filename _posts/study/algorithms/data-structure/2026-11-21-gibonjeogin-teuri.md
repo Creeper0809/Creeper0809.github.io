@@ -3,6 +3,8 @@ title: "기본적인 트리"
 permalink: /study/algorithms/data-structure/gibonjeogin-teuri/
 toc: true
 excerpt: "트리(Tree)는 자료 구조 중 하나로, 노드(Node)와 간선(Edge)으로 이루어진 그래프(Graph)의 일종이다. 트리는 계층 구조를 나타내며, 상위 노드인 부모 노드와 하위 노드인 자식 노드로 구성된다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "트리", "기본적인 트리"]
 ---
 
 [상위 페이지 · Data Structure](/study/algorithms/data-structure/)

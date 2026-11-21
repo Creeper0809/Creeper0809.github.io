@@ -3,6 +3,8 @@ title: "Euler Tour Technique"
 permalink: /study/algorithms/graph/euler-tour-technique/
 toc: true
 excerpt: "트리 구조에서 특정 서브트리의 정보를 효율적으로 관리하기 위한 자료구조 기법이다. 트리를 선형으로 펼쳐서 표현하는 방식으로, 세그먼트 트리와 함께 사용하면 트리 상의 다양한 쿼리를 빠르게 처리할 수 있다."
+categories: ["알고리즘"]
+tags: ["그래프", "오일러 경로 테크닉"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

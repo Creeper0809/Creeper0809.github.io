@@ -3,6 +3,8 @@ title: "Priority Queue"
 permalink: /study/algorithms/data-structure/priority-queue/
 toc: true
 excerpt: "우선순위 큐는 일반적인 큐와 달리 데이터의 삽입 순서와 상관없이 우선순위가 높은 데이터가 먼저 나오는 자료구조이다. 각 요소는 우선순위 값을 가지며, 이 값에 따라 큐에서 빠져나오는 순서가 결정된다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "우선순위 큐"]
 ---
 
 [상위 페이지 · Data Structure](/study/algorithms/data-structure/)

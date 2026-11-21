@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/miller-rabin-primality-test/
 math: true
 toc: true
 excerpt: "밀러-라빈 소수 판정법은 확률적 소수 판정법의 한 종류이다. 이 알고리즘은 합성수를 소수로 판정할 확률이 매우 낮으며, 실행 시간이 빠르다는 장점이 있다."
+categories: ["알고리즘"]
+tags: ["수학", "밀러 라빈", "정수론"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

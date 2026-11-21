@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/2026-cryptanalysis-contest/q1-gojeon-amhobunse
 math: true
 toc: true
 excerpt: "로 정의한다. 그러면 비제네르 암호의 암호화 함수와 복호 함수"
+categories: ["알고리즘"]
+tags: ["수학", "암호학"]
 ---
 
 [상위 페이지 · 2026 암호분석경진대회](/study/algorithms/math/2026-cryptanalysis-contest/)

@@ -2,6 +2,8 @@
 title: "A - o-padding"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-436/a-o-padding/
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 436", "문제 풀이", "문자열"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 436](/study/algorithms/competitive-programming/atcoder-beginner-contest-436/)

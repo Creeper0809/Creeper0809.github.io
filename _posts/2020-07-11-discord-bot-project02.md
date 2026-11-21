@@ -8,6 +8,7 @@ categories:
 toc: true;
 
 author_profile: true;
+tags: ["Java", "디스코드 봇", "JDA", "Maven"]
 ---
 
 오늘은 자바와 저번에 만든 디스코드 봇을 연동하는법을 알려드리겠습니다.

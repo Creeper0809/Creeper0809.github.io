@@ -3,6 +3,8 @@ title: "D. Wishing Cards"
 permalink: /study/algorithms/competitive-programming/codeforce-round-1069-div-2/d-wishing-cards/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "Codeforces", "Codeforces Round 1069", "문제 풀이", "동적 계획법"]
 ---
 
 [상위 페이지 · Codeforce Round 1069 (Div. 2)](/study/algorithms/competitive-programming/codeforce-round-1069-div-2/)

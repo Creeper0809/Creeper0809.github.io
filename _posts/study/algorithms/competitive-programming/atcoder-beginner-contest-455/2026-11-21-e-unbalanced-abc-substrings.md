@@ -3,6 +3,8 @@ title: "E. Unbalanced ABC Substrings"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-455/e-unbalanced-abc-substrings/
 toc: true
 excerpt: "부분 문자열 안에서 A의 개수, B의 개수, C의 개수가 모두 서로 다른 경우만 세고 싶다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 455", "문제 풀이", "누적합", "포함 배제 원리", "해시"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 455](/study/algorithms/competitive-programming/atcoder-beginner-contest-455/)

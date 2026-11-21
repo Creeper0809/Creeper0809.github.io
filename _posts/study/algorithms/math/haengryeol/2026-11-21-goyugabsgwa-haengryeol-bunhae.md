@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/goyugabsgwa-haengryeol-bunhae/
 math: true
 toc: true
 excerpt: "고유벡터는 변환 후에도 방향이 유지되는 축이고, 고유값은 그 축 방향의 확대·축소 비율이다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

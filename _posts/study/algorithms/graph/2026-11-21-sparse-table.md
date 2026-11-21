@@ -4,6 +4,8 @@ permalink: /study/algorithms/graph/sparse-table/
 math: true
 toc: true
 excerpt: "목표: 배열의 특정 구간 [L, R]에서 최솟값, 최댓값, GCD 등을 O(1)만에 찾는다."
+categories: ["알고리즘"]
+tags: ["그래프", "스파스 테이블"]
 ---
 
 [상위 페이지 · Graph](/study/algorithms/graph/)

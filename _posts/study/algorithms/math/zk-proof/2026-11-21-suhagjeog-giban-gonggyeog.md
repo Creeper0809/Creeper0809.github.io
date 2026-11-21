@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/zk-proof/suhagjeog-giban-gonggyeog/
 math: true
 toc: true
 excerpt: "ZK 프로토콜의 수학적 기반에서 발생하는 취약점을 다룬다. 암호학적 안전성 자체가 무너지는 경우로, 필드 연산의 특성이나 페어링의 수학적 성질을 악용한다."
+categories: ["알고리즘"]
+tags: ["수학", "영지식 증명", "암호학"]
 ---
 
 [상위 페이지 · ZK Proof](/study/algorithms/math/zk-proof/)

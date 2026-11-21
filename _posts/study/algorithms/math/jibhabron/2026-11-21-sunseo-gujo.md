@@ -2,6 +2,8 @@
 title: "순서 구조"
 permalink: /study/algorithms/math/jibhabron/sunseo-gujo/
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "집합론"]
 ---
 
 [상위 페이지 · 집합론](/study/algorithms/math/jibhabron/)

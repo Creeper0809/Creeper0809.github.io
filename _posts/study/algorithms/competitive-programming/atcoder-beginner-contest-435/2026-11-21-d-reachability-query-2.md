@@ -2,6 +2,8 @@
 title: "D - Reachability Query 2"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-435/d-reachability-query-2/
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 435", "문제 풀이", "그래프"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 435](/study/algorithms/competitive-programming/atcoder-beginner-contest-435/)

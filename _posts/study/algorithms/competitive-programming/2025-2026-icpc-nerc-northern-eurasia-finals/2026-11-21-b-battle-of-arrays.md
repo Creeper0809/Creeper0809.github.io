@@ -2,6 +2,8 @@
 title: "B. Battle of Arrays"
 permalink: /study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/b-battle-of-arrays/
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "ICPC", "ICPC NERC 2025-2026", "문제 풀이", "자료 구조", "그리디"]
 ---
 
 [상위 페이지 · 2025-2026 ICPC, NERC, Northern Eurasia Finals](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/)

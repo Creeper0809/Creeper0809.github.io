@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/zk-proof/guhyeonce-gonggyeog/
 math: true
 toc: true
 excerpt: "구현체 공격은 ZK 프로토콜의 이론적 설계는 안전하지만, 실제 구현 과정에서 발생하는 취약점을 악용하는 공격이다. 암호학적 프로토콜 자체의 결함이 아닌, 코드 작성, 배포, 통합 단계에서의 실수로 인해 발생한다."
+categories: ["알고리즘"]
+tags: ["수학", "영지식 증명", "암호학"]
 ---
 
 [상위 페이지 · ZK Proof](/study/algorithms/math/zk-proof/)

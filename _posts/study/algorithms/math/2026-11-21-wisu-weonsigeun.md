@@ -3,6 +3,8 @@ title: "위수/원시근"
 permalink: /study/algorithms/math/wisu-weonsigeun/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "위수/원시근"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

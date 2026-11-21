@@ -11,6 +11,8 @@ share: false
 related: false
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 목차"]
 ---
 
 [상위 페이지 · 공부](/study/)

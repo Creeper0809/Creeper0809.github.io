@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/haengryeol/aieseoyi-seonhyeongdaesu-eungyong/
 math: true
 toc: true
 excerpt: "단어, 문장, 사용자, 상품을 고차원 벡터로 나타낸다. 코사인 유사도 또는 내적으로 가까운 벡터를 찾는다."
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

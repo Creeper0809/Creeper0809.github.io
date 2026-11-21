@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/mersenne-twister/
 math: true
 toc: true
 excerpt: "Mersenne Twister는 1997년 마츠모토 마코토(松本眞)와 니시무라 타쿠지(西村拓士)가 개발한 의사난수 생성기(Pseudorandom Number Generator, PRNG)이다. 현재 가장 널리 사용되는 범용 난수 생성 알고리즘 중 하나로, Python의 random 모듈, Ruby, PHP, Excel, C++의 std::mt19937 등 다양한 프로그래밍 언어와 라이브러리의 기본 난수 생성기로 채택되어 있다."
+categories: ["알고리즘"]
+tags: ["수학", "난수 생성", "Mersenne Twister"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

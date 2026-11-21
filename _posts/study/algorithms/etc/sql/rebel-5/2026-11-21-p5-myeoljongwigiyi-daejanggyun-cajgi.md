@@ -2,6 +2,8 @@
 title: "P5.멸종위기의 대장균 찾기"
 permalink: /study/algorithms/etc/sql/rebel-5/p5-myeoljongwigiyi-daejanggyun-cajgi/
 toc: true
+categories: ["알고리즘"]
+tags: ["SQL", "프로그래머스", "프로그래머스 레벨 5", "문제 풀이", "재귀", "서브쿼리", "SELECT"]
 ---
 
 [상위 페이지 · 레벨 5](/study/algorithms/etc/sql/rebel-5/)

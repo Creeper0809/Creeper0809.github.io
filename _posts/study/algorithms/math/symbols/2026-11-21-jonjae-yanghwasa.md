@@ -2,6 +2,8 @@
 title: "존재 양화사"
 permalink: /study/algorithms/math/symbols/jonjae-yanghwasa/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "논리"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

@@ -9,6 +9,7 @@ categories:
 toc: true;
 
 author_profile: true;
+tags: ["Java", "디스코드 봇", "JDA"]
 ---
 
 요즘 디스코드가 흥행하면서 디스코드 제공한 API를 통해 만든 봇들이 시중에 많이 나오기 시작했습니다.<br/>

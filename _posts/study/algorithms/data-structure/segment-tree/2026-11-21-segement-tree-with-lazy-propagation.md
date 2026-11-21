@@ -3,6 +3,8 @@ title: "Segement Tree with Lazy Propagation"
 permalink: /study/algorithms/data-structure/segment-tree/segement-tree-with-lazy-propagation/
 toc: true
 excerpt: "세그먼트 트리는 구간 쿼리를 효율적으로 처리하는 자료구조이다. 하지만 구간 업데이트 연산에서는 한계를 보인다. 구간 내 모든 노드를 개별적으로 업데이트해야 하므로, 최악의 경우 O(N)의 시간 복잡도가 발생한다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "세그먼트 트리"]
 ---
 
 [상위 페이지 · Segment Tree](/study/algorithms/data-structure/segment-tree/)

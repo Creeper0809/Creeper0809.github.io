@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/bunhaljeongbogeul-iyonghan-bbareun-geodeubjego
 math: true
 toc: true
 excerpt: "빠른 거듭제곱 알고리즘은 다음과 같은 수식으로 증명할 수 있다."
+categories: ["알고리즘"]
+tags: ["수학", "빠른 거듭제곱", "분할 정복", "분할정복을 이용한 빠른 거듭제곱"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

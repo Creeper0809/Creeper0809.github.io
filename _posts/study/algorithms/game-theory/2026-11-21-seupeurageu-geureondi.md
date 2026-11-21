@@ -4,6 +4,8 @@ permalink: /study/algorithms/game-theory/seupeurageu-geureondi/
 math: true
 toc: true
 excerpt: "여러 사람이 차례를 가지고 순서대로 돌아가면서 하는 게임. 게임 이론에서 유명한 죄수의 딜레마는 두 죄수가 동시에 선택을 하고 각 죄수는 상대방이 어떤 선택을 했는지 자신이 선택하기 전에는 모르기 때문에 순차적 게임이 아니다."
+categories: ["알고리즘"]
+tags: ["게임 이론", "스프라그 그런디"]
 ---
 
 [상위 페이지 · Game Theory](/study/algorithms/game-theory/)

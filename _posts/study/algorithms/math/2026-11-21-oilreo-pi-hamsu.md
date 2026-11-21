@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/oilreo-pi-hamsu/
 math: true
 toc: true
 excerpt: "한마디로 이 오일러의 피 함수를 이용하여 x의 서로소 개수를 구하는 것이다"
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "오일러 피 함수"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -3,6 +3,8 @@ title: "D - Sum of Differences"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-437/d-sum-of-differences/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 437", "문제 풀이", "누적합", "정렬"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 437](/study/algorithms/competitive-programming/atcoder-beginner-contest-437/)

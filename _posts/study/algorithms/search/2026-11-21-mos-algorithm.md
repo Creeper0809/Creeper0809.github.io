@@ -4,6 +4,8 @@ permalink: /study/algorithms/search/mos-algorithm/
 math: true
 toc: true
 excerpt: "Mo’s Algoritm은 수많은 구간 쿼리를 오프라인으로 매우 효율적으로 처리하기 위한 알고리즘이다. 쿼리를 특정 순서로 정렬하여 이전 쿼리의 계산 결과를 최대한 재활용한다."
+categories: ["알고리즘"]
+tags: ["탐색", "모스 알고리즘"]
 ---
 
 [상위 페이지 · Search](/study/algorithms/search/)

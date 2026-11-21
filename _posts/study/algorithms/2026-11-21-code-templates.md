@@ -2,6 +2,8 @@
 title: "스켈레톤 코드 모음"
 permalink: /study/algorithms/code-templates/
 toc: true
+categories: ["알고리즘"]
+tags: ["코드 템플릿"]
 ---
 
 [상위 페이지 · 알고리즘](/study/algorithms/)

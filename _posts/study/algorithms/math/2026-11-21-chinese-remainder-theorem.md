@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/chinese-remainder-theorem/
 math: true
 toc: true
 excerpt: "중국인의 나머지 정리(Chinese Remainder Theorem, CRT)는 **\"여러 개의 제약 조건(나머지)이 있을 때, 이를 모두 만족하는 하나의 수(전체)를 찾을 수 있는가?\"**라는 질문에 대한 수학적 대답이다."
+categories: ["알고리즘"]
+tags: ["수학", "중국인의 나머지 정리", "정수론"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-45
 math: true
 toc: true
 excerpt: "이동은 상하좌우 인접한 칸으로만 가능하다. 전체 칸 중 (A, B)만 방문하지 않고, 나머지 모든 칸은 정확히 한 번씩 방문해야 한다. 중간에 (1, 1)이나 (N, N)을 다시 방문하는 것도 불가능하다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 454", "문제 풀이", "구성적 알고리즘", "격자 그래프", "해밀턴 경로", "홀짝성"]
 ---
 
 [상위 페이지 · AtCoder Beginner Contest 454](/study/algorithms/competitive-programming/atcoder-beginner-contest-454/)

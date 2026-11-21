@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/codeunghamsu/
 math: true
 toc: true
 excerpt: "함수는 집합 X(정의역)와 집합 Y(치약) 사이의 대응 관계로, X의 원소 x에 대하여 Y의 단 하나의 원소 y가 대응 되는 관계."
+categories: ["알고리즘"]
+tags: ["수학", "미적분학", "초등함수"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

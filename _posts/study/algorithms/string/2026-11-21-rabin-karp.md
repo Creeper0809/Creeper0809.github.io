@@ -4,6 +4,8 @@ permalink: /study/algorithms/string/rabin-karp/
 math: true
 toc: true
 excerpt: "라빈-카프 알고리즘은 문자열에서 패턴을 찾는 알고리즘이다. 해싱(hashing)을 사용하여 효율적으로 문자열을 검색한다. 이 알고리즘의 시간 복잡도는 문자열의 길이에 비례한다."
+categories: ["알고리즘"]
+tags: ["문자열", "라빈 카프"]
 ---
 
 [상위 페이지 · String](/study/algorithms/string/)

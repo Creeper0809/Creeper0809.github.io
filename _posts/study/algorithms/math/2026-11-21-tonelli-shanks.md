@@ -3,6 +3,8 @@ title: "Tonelli-Shanks"
 permalink: /study/algorithms/math/tonelli-shanks/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "Tonelli-Shanks"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/ihanggyesu-guhagi-step-by-step/
 math: true
 toc: true
 excerpt: "페르마의 소정리는 모듈러 연산에서 나눗셈을 곱셈으로 바꾸는 방법을 제공한다."
+categories: ["알고리즘"]
+tags: ["수학", "조합론", "이항계수 구하기 STEP by STEP"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

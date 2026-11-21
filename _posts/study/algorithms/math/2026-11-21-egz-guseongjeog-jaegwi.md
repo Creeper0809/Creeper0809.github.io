@@ -3,6 +3,8 @@ title: "EGZ 구성적 재귀"
 permalink: /study/algorithms/math/egz-guseongjeog-jaegwi/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "조합론", "EGZ 구성적 재귀"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

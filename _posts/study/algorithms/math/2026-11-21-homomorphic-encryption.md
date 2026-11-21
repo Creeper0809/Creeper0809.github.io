@@ -1,6 +1,8 @@
 ---
 title: "Homomorphic Encryption"
 permalink: /study/algorithms/math/homomorphic-encryption/
+categories: ["알고리즘"]
+tags: ["수학", "암호학", "Homomorphic Encryption"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

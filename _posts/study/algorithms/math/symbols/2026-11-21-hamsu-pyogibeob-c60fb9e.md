@@ -2,6 +2,8 @@
 title: "함수 표기법"
 permalink: /study/algorithms/math/symbols/hamsu-pyogibeob-c60fb9e/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "집합론"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

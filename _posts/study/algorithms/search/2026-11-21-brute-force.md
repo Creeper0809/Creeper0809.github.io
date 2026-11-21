@@ -2,6 +2,8 @@
 title: "Brute Force"
 permalink: /study/algorithms/search/brute-force/
 excerpt: "브루트 포스는 컴퓨터 알고리즘 중 하나로, 가능한 모든 경우의 수를 일일이 검사하여 원하는 결과를 도출하는 방법을 말한다. 이 방법은 가장 직관적이고 단순하지만, 경우의 수가 많은 문제에서는 처리 시간이 매우 길어질 수 있다. 따라서 브루트 포스는 대개 다른 알고리즘과 함께 사용되며, 입력값이 매우 작다던지 특정한 조건에서만 사용된다."
+categories: ["알고리즘"]
+tags: ["탐색", "완전 탐색"]
 ---
 
 [상위 페이지 · Search](/study/algorithms/search/)

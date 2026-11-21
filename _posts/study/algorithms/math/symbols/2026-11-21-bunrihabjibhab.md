@@ -2,6 +2,8 @@
 title: "분리합집합"
 permalink: /study/algorithms/math/symbols/bunrihabjibhab/
 math: true
+categories: ["알고리즘"]
+tags: ["수학", "수학 기호", "집합론"]
 ---
 
 [상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/shoelace-formula/
 math: true
 toc: true
 excerpt: "신발끈 공식(Shoelace Formula)은 다각형의 면적을 계산하는 간단하고 효율적인 수학적 방법이다. 이 공식은 좌표 기하학에서 특히 유용하며, 복잡한 다각형의 면적을 쉽게 구할 수 있게 해준다."
+categories: ["알고리즘"]
+tags: ["수학", "기하학", "Shoelace Formula"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

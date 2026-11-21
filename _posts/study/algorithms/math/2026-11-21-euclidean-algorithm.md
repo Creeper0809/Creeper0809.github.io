@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/euclidean-algorithm/
 math: true
 toc: true
 excerpt: "유클리드의 호제법은 두 수의 최대공약수를 구하는 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["수학", "유클리드 알고리즘", "정수론"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

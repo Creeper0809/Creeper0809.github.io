@@ -3,6 +3,8 @@ title: "포함 배제 원리"
 permalink: /study/algorithms/math/poham-baeje-weonri/
 toc: true
 excerpt: "포함배제 원리는 집합의 합과 교집합을 이용하여 원하는 결과를 구하는 방법이다."
+categories: ["알고리즘"]
+tags: ["수학", "포함 배제 원리", "조합론"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

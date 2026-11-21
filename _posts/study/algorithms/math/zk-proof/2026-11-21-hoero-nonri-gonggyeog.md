@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/zk-proof/hoero-nonri-gonggyeog/
 math: true
 toc: true
 excerpt: "회로 논리 공격은 영지식 증명 시스템에서 회로 설계의 논리적 결함을 악용하는 공격 기법이다."
+categories: ["알고리즘"]
+tags: ["수학", "영지식 증명", "암호학"]
 ---
 
 [상위 페이지 · ZK Proof](/study/algorithms/math/zk-proof/)

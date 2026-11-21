@@ -3,6 +3,8 @@ title: "행렬미분과 최적화"
 permalink: /study/algorithms/math/haengryeol/haengryeolmibungwa-coejeoghwa/
 math: true
 toc: true
+categories: ["알고리즘"]
+tags: ["수학", "선형대수학"]
 ---
 
 [상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)

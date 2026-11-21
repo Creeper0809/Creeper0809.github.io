@@ -4,6 +4,8 @@ permalink: /study/algorithms/search/back-tracking/knuth-x-algorithm/
 math: true
 toc: true
 excerpt: "Knuth X 알고리즘은 Exact Cover 문제를 해결하기 위해 Donald Knuth가 고안한 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["탐색", "백트래킹"]
 ---
 
 [상위 페이지 · Back-Tracking](/study/algorithms/search/back-tracking/)

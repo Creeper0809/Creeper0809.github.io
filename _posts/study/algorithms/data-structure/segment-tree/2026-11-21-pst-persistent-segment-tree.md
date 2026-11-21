@@ -3,6 +3,8 @@ title: "PST(Persistent Segment Tree)"
 permalink: /study/algorithms/data-structure/segment-tree/pst-persistent-segment-tree/
 toc: true
 excerpt: "PST는 세그먼트 트리의 각 버전을 모두 저장하여 과거의 상태를 조회할 수 있게 해주는 자료구조이다. 이는 각 쿼리마다 세그먼트 트리의 상태를 보존하면서 업데이트를 수행할 수 있다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "세그먼트 트리"]
 ---
 
 [상위 페이지 · Segment Tree](/study/algorithms/data-structure/segment-tree/)

@@ -3,6 +3,8 @@ title: "CCW(Counter Clock Wise)"
 permalink: /study/algorithms/math/ccw-counter-clock-wise/
 toc: true
 excerpt: "CCW(Counter Clock Wise) 알고리즘은 3개의 점 A, B, C가 있을 때 이 세 점을 이은 직선의 방향을 알고자 할 때 유용한 기하 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["수학", "기하학", "CCW(Counter Clock Wise)"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

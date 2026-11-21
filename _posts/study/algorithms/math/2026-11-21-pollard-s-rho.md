@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/pollard-s-rho/
 math: true
 toc: true
 excerpt: "폴라드-로 알고리즘은 존 폴라드가 1975년에 고안한 정수 인수분해 알고리즘이다. 순환고리 형태의 그래프가 로마자 문자 'ρ'와 비슷한 모양을 만들어내어 이러한 이름이 붙었다. 이는 합성수의 인수를 효율적으로 찾아내는 데 사용되는 확률적 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["수학", "폴라드 로", "정수론"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

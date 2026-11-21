@@ -3,6 +3,8 @@ title: "선분 교차 판정"
 permalink: /study/algorithms/math/seonbun-gyoca-panjeong/
 toc: true
 excerpt: "선분 교차 판정은 컴퓨터 그래픽스, 게임 개발, 계산 기하학 등 다양한 분야에서 중요한 알고리즘이다. 두 선분이 서로 교차하는지 여부를 판단하는 방법으로, 충돌 감지, 클리핑, 다각형 처리 등에 활용된다."
+categories: ["알고리즘"]
+tags: ["수학", "기하학", "선분 교차 판정"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -3,6 +3,8 @@ title: "Aho-corasick"
 permalink: /study/algorithms/string/aho-corasick/
 toc: true
 excerpt: "아호-코라식 알고리즘은 여러 개의 패턴 문자열을 동시에 찾을 수 있는 효율적인 문자열 매칭 알고리즘이다."
+categories: ["알고리즘"]
+tags: ["문자열", "아호 코라식"]
 ---
 
 [상위 페이지 · String](/study/algorithms/string/)

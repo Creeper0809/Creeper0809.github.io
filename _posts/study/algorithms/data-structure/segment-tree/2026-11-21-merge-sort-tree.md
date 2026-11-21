@@ -3,6 +3,8 @@ title: "Merge Sort Tree"
 permalink: /study/algorithms/data-structure/segment-tree/merge-sort-tree/
 toc: true
 excerpt: "머지 소트 트리는 정렬된 배열들을 세그먼트 트리 형태로 저장하여 구간 쿼리를 효율적으로 처리하는 자료구조이다."
+categories: ["알고리즘"]
+tags: ["자료 구조", "세그먼트 트리"]
 ---
 
 [상위 페이지 · Segment Tree](/study/algorithms/data-structure/segment-tree/)

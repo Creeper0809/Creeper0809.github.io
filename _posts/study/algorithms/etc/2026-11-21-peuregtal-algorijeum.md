@@ -2,6 +2,8 @@
 title: "프렉탈 알고리즘"
 permalink: /study/algorithms/etc/peuregtal-algorijeum/
 excerpt: "프렉탈 알고리즘은 기하학적 도형이나 자연 현상의 복잡성을 설명하는 알고리즘입니다. 이 알고리즘은 자기 유사성(self-similarity)이라는 특징을 가지고 있습니다. 즉, 작은 규모에서 큰 규모로 이어지는 구조를 가지고 있습니다."
+categories: ["알고리즘"]
+tags: ["프랙털", "재귀"]
 ---
 
 [상위 페이지 · Etc](/study/algorithms/etc/)

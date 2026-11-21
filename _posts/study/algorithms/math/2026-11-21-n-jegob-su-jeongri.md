@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/n-jegob-su-jeongri/
 math: true
 toc: true
 excerpt: "어떤 수를 하나의 제곱수로 표현한다는 것은 그 수의 제곱근을 구하는 것과 같다. 예를 들어 9의 제곱근은 3이므로, 9는 3²로 표현할 수 있다."
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "n 제곱 수 정리"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

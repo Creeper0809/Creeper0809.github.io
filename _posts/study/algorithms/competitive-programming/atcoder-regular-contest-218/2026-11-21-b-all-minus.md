@@ -4,6 +4,8 @@ permalink: /study/algorithms/competitive-programming/atcoder-regular-contest-218
 math: true
 toc: true
 excerpt: "Alice와 Bob이 게임을 한다. Alice부터 시작해서 두 사람은 번갈아 다음 조작을 수행하며, 칠판에 적힌 정수의 개수를 0개로 만든 사람이 이긴다."
+categories: ["알고리즘"]
+tags: ["알고리즘 대회", "AtCoder", "AtCoder Regular Contest 218", "문제 풀이", "게임 이론", "정렬", "상태 압축"]
 ---
 
 [상위 페이지 · AtCoder Regular Contest 218](/study/algorithms/competitive-programming/atcoder-regular-contest-218/)

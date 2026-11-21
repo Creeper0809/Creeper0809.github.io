@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/lenstra-lenstra-lovasz/
 math: true
 toc: true
 excerpt: "Lenstra-Lenstra-Lovász (LLL) 알고리즘은 1982년 Arjen Lenstra, Hendrik Lenstra, László Lovász 세 명의 수학자가 개발한 알고리즘으로 격자의 기저를 짧고, 직교에 가깝게 변환해 주는 격자 기저 축소알고리즘이다."
+categories: ["알고리즘"]
+tags: ["수학", "암호학", "선형대수학", "Lenstra-Lenstra-Lovász"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

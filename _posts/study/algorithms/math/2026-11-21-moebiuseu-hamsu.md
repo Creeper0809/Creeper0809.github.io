@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/moebiuseu-hamsu/
 math: true
 toc: true
 excerpt: "뫼비우스 함수(Möbius function)는 정수론에서 중요하게 사용되는 산술 함수이다. 이 함수는 다음과 같이 정의된다."
+categories: ["알고리즘"]
+tags: ["수학", "정수론", "뫼비우스 함수"]
 ---
 
 [상위 페이지 · Math](/study/algorithms/math/)

@@ -4,6 +4,8 @@ permalink: /study/algorithms/math/jibhabron/jibhabgwa-yeonsan/
 math: true
 toc: true
 excerpt: "집합과 연산은 집합론의 가장 기초가 되는 부분이다. 여기서는 집합과 원소의 구분, 집합을 표현하는 방법, 부분집합과 멱집합, 그리고 합집합과 교집합 같은 기본 연산을 정리한다"
+categories: ["알고리즘"]
+tags: ["수학", "집합론"]
 ---
 
 [상위 페이지 · 집합론](/study/algorithms/math/jibhabron/)
