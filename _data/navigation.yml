@@ -8,11 +8,3 @@ main:
     url: /study/
   - title: "내 소개"
     url: /about/
-  - title: "자바 강의"
-    url: /java%20explain/java-first/
-
-java:
-  - title: 자바 강의
-    children:
-      - title: "자바 강의"
-        url: /java%20explain/java-first/
