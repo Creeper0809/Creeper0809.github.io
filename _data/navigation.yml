@@ -2,7 +2,7 @@
 main:
   - title: "카테고리"
     url: /categories/
-  - title: "태그"
+  - title: "알고리즘 풀이"
     url: /tags/
   - title: "공부"
     url: /study/
