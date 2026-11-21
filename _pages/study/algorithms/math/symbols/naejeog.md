@@ -1,0 +1,12 @@
+---
+title: "내적"
+permalink: /study/algorithms/math/symbols/naejeog/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: $$\angle u, v \rangle$$
+분류: 선형대수학
+설명: 내적 공간의 원소 u, v의 내적을 의미한다.
+예시: 실수에서 $$\langle x, y \rangle := xy$$

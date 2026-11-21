@@ -1,0 +1,12 @@
+---
+title: "계수"
+permalink: /study/algorithms/math/symbols/gyesu/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: rank A
+분류: 선형대수학
+설명: 행렬 $$A$$의 행공간 또는 열공간의 차원을 의미한다.
+예시: A = $$\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$$일 때 rank A=1

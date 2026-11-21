@@ -1,0 +1,12 @@
+---
+title: "소수"
+permalink: /study/algorithms/math/symbols/sosu/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: $$\Box.\Box$$
+분류: 기초 연산 기호
+설명: $$r_0.r_1r_2...$$는 소수로 나타낸 실수를 의미한다.
+예시: 0.5 = $$\frac{1}{2}$$, 0.3333... = $$\frac{1}{3}$$

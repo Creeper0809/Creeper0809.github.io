@@ -1,0 +1,12 @@
+---
+title: "나누기"
+permalink: /study/algorithms/math/symbols/nanugi/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: /, ÷
+분류: 기초 연산 기호
+설명: $$X/Y$$ 또는 $$X÷Y$$는 수 $$X$$를 0이 아닌 수 $$Y$$로 나눈 값을 의미한다.
+예시: 12/4=3, 2÷4=0.5

@@ -1,0 +1,11 @@
+---
+title: "정수 집합"
+permalink: /study/algorithms/math/symbols/jeongsu-jibhab/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: $$\mathbb{Z}$$
+분류: 수 집합 기호
+설명: ℤ={..., -2, -1, 0, 1, 2, ...}

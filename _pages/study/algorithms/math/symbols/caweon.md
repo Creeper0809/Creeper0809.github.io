@@ -1,0 +1,12 @@
+---
+title: "차원"
+permalink: /study/algorithms/math/symbols/caweon/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: dim V
+분류: 선형대수학
+설명: 체 $$F$$ 위의 벡터 공간 $$V$$의 기저 집합의 크기를 의미한다.
+예시: dim $$ℝ^n=n$$

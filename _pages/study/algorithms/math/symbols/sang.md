@@ -1,0 +1,15 @@
+---
+title: "상"
+permalink: /study/algorithms/math/symbols/sang/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: f(A)
+ f[A]
+im f
+image f
+분류: 집합론 기호
+설명: $$f(A)$$는 함수 $$f:X→Y$$에 대해 $$X$$의 부분집합 $$A$$의 상 $${f(x):x∈A}$$를 의미한다. im f는 함수 $$f$$의 상 $$f(X)$$를 의미한다.
+예시: $$f(x)=e^x$$로 정의된 함수 $$f:ℝ→ℝ$$에 대해 im f = $$f(X) = ℝ^+$$

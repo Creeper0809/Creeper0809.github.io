@@ -1,0 +1,12 @@
+---
+title: "k-순열"
+permalink: /study/algorithms/math/symbols/k-sunyeol/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: $$_nP_k$$
+분류: 미분류 기호
+설명: 서로 다른 n개에서 중복 없이 k개를 골라 순서 있게 나열하는 경우의 수.
+예시: $$_5P_2 = 5⋅4 = 20$$
