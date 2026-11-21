@@ -129,13 +129,16 @@
 .profile-projects,
 .profile-details {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
   gap: 14px;
 }
 
 .profile-projects {
-  align-items: stretch;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.profile-details {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
 }
 
 .profile-projects h3 {
@@ -231,7 +234,6 @@
 }
 
 @media (max-width: 650px) {
-  .profile-projects,
   .profile-details,
   .profile-list--publications > li {
     grid-template-columns: minmax(0, 1fr);
