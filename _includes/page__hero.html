@@ -7,12 +7,10 @@
 {% endif %}
 
 {% if page.header.image_description %}
-  {% assign image_description = page.header.image_description %}
+  {% assign image_description = page.header.image_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% else %}
-  {% assign image_description = page.title %}
+  {% assign image_description = page.title | strip_newlines | escape_once %}
 {% endif %}
-
-{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
@@ -23,7 +21,7 @@
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {{ page.title | default: site.title | escape_once }}
         {% endif %}
       </h1>
       {% if page.tagline %}
