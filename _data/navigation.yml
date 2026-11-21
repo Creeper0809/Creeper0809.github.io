@@ -4,7 +4,5 @@ main:
     url: /categories/
   - title: "알고리즘 풀이"
     url: /tags/
-  - title: "공부"
-    url: /study/
   - title: "내 소개"
     url: /about/
