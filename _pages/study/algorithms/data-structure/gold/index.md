@@ -1,0 +1,18 @@
+---
+title: "골드"
+permalink: /study/algorithms/data-structure/gold/
+---
+
+[상위 페이지 · Data Structure](/study/algorithms/data-structure/)
+
+- [1918. 후위 표기식](/study/algorithms/data-structure/gold/boj-1918/)
+
+- [14428. 수열과 쿼리 16](/study/algorithms/data-structure/gold/boj-14428/)
+
+- [11505. 구간 곱 구하기](/study/algorithms/data-structure/gold/boj-11505/)
+
+- [2042. 구간 합 구하기](/study/algorithms/data-structure/gold/boj-2042/)
+
+- [2357. 최솟값과 최대값](/study/algorithms/data-structure/gold/boj-2357/)
+
+- [14725. 개미굴](/study/algorithms/data-structure/gold/boj-14725/)

@@ -1,0 +1,16 @@
+---
+title: "골드"
+permalink: /study/algorithms/math/gold/
+---
+
+[상위 페이지 · Math](/study/algorithms/math/)
+
+- [17436번 소수의 배수](/study/algorithms/math/gold/boj-17436/)
+
+- [1016번 제곱 ㄴㄴ수](/study/algorithms/math/gold/boj-1016/)
+
+- [11689. GCD(n,k) = 1](/study/algorithms/math/gold/boj-11689/)
+
+- [16563. 어려운 소인수 분해](/study/algorithms/math/gold/boj-16563/)
+
+- [7806. GCD!](/study/algorithms/math/gold/boj-7806/)

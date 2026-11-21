@@ -1,0 +1,12 @@
+---
+title: "차집합"
+permalink: /study/algorithms/math/symbols/cajibhab/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: −, \\
+분류: 집합론 기호
+설명: $$A−B$$ 또는 $$A\setminus B$$는 집합 $$A$$의 원소 중 집합 $$B$$에 있지 않은 원소들로 이루어진 집합을 의미한다.
+예시: {1, 2, 3}−{3, 4} = {1, 2}

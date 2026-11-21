@@ -1,0 +1,12 @@
+---
+title: "노름"
+permalink: /study/algorithms/math/symbols/noreum/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: $$||x||$$
+분류: 괄호 기호
+설명: 노름 공간의 원소 x의 노름을 의미한다.
+예시: $$||(1,0,2)|| = \sqrt{1^2+0^2+2^2}=\sqrt{5}$$

@@ -1,0 +1,18 @@
+---
+title: "AtCoder Regular Contest 218"
+permalink: /study/algorithms/competitive-programming/atcoder-regular-contest-218/
+---
+
+[상위 페이지 · Competitive Programming](/study/algorithms/competitive-programming/)
+
+![image.png](/assets/images/study/algorithms/image-40-968acb3f.png)
+
+![image.png](/assets/images/study/algorithms/image-41-ee312b95.png)
+
+---
+
+- [A. Many Sets](/study/algorithms/competitive-programming/atcoder-regular-contest-218/a-many-sets/)
+
+- [B. All Minus](/study/algorithms/competitive-programming/atcoder-regular-contest-218/b-all-minus/)
+
+- [D. I like Increasing](/study/algorithms/competitive-programming/atcoder-regular-contest-218/d-i-like-increasing/)

@@ -1,0 +1,42 @@
+---
+title: "다이아"
+permalink: /study/algorithms/math/diamond/
+---
+
+[상위 페이지 · Math](/study/algorithms/math/)
+
+- [1557&8464. 자유제곱수](/study/algorithms/math/diamond/boj-1557-8464/)
+
+- [13926. gcd(n, k) = 1](/study/algorithms/math/diamond/boj-13926/)
+
+- [17633. **제곱수의 합 (More Huge)**](/study/algorithms/math/diamond/boj-17633/)
+
+- [7501. Key](/study/algorithms/math/diamond/boj-7501/)
+
+- [5051. 피타고라스 정리](/study/algorithms/math/diamond/boj-5051/)
+
+- [17104. 골드바흐 파티션 2](/study/algorithms/math/diamond/boj-17104/)
+
+- [13278. 피보나치 합의 개수](/study/algorithms/math/diamond/boj-13278/)
+
+- [14756. **Telescope**](/study/algorithms/math/diamond/boj-14756/)
+
+- [13055. **K-Inversions**](/study/algorithms/math/diamond/boj-13055/)
+
+- [1046. 그림자](/study/algorithms/math/diamond/boj-1046/)
+
+- [14882. 다항식과 쿼리](/study/algorithms/math/diamond/boj-14882/)
+
+- [32231. 재우의 삼수강](/study/algorithms/math/diamond/boj-32231/)
+
+- [31546. **재우의 재수강 2**](/study/algorithms/math/diamond/boj-31546/)
+
+- [13724. 3D 쿼리](/study/algorithms/math/diamond/boj-13724/)
+
+- [11385. 씽크 스몰](/study/algorithms/math/diamond/boj-11385/)
+
+- [14958. **Rock Paper Scissors**](/study/algorithms/math/diamond/boj-14958/)
+
+- [11691. LCM(i, j)](/study/algorithms/math/diamond/boj-11691/)
+
+- [13575. 보석 가게](/study/algorithms/math/diamond/boj-13575/)

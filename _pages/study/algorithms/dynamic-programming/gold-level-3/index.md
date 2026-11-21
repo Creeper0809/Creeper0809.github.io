@@ -1,0 +1,14 @@
+---
+title: "골드/레벨 3"
+permalink: /study/algorithms/dynamic-programming/gold-level-3/
+---
+
+[상위 페이지 · Dynamic Programming](/study/algorithms/dynamic-programming/)
+
+- [7570번 줄 세우기](/study/algorithms/dynamic-programming/gold-level-3/boj-7570/)
+
+- [P3.정수삼각형](/study/algorithms/dynamic-programming/gold-level-3/p3-jeongsusamgaghyeong/)
+
+- [P3.등굣길](/study/algorithms/dynamic-programming/gold-level-3/p3-deunggyosgil/)
+
+- [10942. 팰린드롬?](/study/algorithms/dynamic-programming/gold-level-3/boj-10942/)

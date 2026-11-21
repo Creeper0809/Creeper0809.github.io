@@ -1,0 +1,22 @@
+---
+title: "2025-2026 ICPC, NERC, Northern Eurasia Finals"
+permalink: /study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/
+---
+
+[상위 페이지 · Competitive Programming](/study/algorithms/competitive-programming/)
+
+![image.png](/assets/images/study/algorithms/image-28-fc511ddf.png)
+
+![image.png](/assets/images/study/algorithms/image-29-4f22a308.png)
+
+---
+
+- [A. Alphabet City](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/a-alphabet-city/)
+
+- [B. Battle of Arrays](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/b-battle-of-arrays/)
+
+- [F. Fragmented Nim](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/f-fragmented-nim/)
+
+- [H. Honey Cake](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/h-honey-cake/)
+
+- [J. Jinx or Jackpot](/study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/j-jinx-or-jackpot/)

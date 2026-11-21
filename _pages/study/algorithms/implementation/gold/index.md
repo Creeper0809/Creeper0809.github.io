@@ -1,0 +1,18 @@
+---
+title: "골드"
+permalink: /study/algorithms/implementation/gold/
+---
+
+[상위 페이지 · Implementation](/study/algorithms/implementation/)
+
+- [21611번 **마법사 상어와 블리자드**](/study/algorithms/implementation/gold/boj-21611/)
+
+- [21608번 상어 초등학교](/study/algorithms/implementation/gold/boj-21608/)
+
+- [14719번 빗물](/study/algorithms/implementation/gold/boj-14719/)
+
+- [1062번 가르침](/study/algorithms/implementation/gold/boj-1062/)
+
+- [21610. 마법사 상어와 비바라기](/study/algorithms/implementation/gold/boj-21610/)
+
+- [14500. 테트로미노](/study/algorithms/implementation/gold/boj-14500/)

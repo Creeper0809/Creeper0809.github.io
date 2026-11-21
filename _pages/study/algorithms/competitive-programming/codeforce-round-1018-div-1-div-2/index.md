@@ -1,0 +1,20 @@
+---
+title: "Codeforce Round 1018 (Div. 1+Div. 2)"
+permalink: /study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/
+---
+
+[상위 페이지 · Competitive Programming](/study/algorithms/competitive-programming/)
+
+![image.png](/assets/images/study/algorithms/image-25-6a1e4b70.png)
+
+4솔 마무리
+
+## 문제 풀이
+
+- [A. Wonderful Sticks](/study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/a-wonderful-sticks/)
+
+- [B. Wonderful Gloves](/study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/b-wonderful-gloves/)
+
+- [C. Wonderful City](/study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/c-wonderful-city/)
+
+- [D.Wonderful Lightbulbs](/study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/d-wonderful-lightbulbs/)

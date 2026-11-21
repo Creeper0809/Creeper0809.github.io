@@ -1,0 +1,12 @@
+---
+title: "부분군"
+permalink: /study/algorithms/math/symbols/bubungun/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: H ≤ G
+분류: 추상대수학
+설명: 군 H가 군 G의 부분군임을 의미한다.
+예시: $$5ℤ≤ℤ$$

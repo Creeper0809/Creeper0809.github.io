@@ -1,0 +1,10 @@
+---
+title: "실버"
+permalink: /study/algorithms/math/silver/
+---
+
+[상위 페이지 · Math](/study/algorithms/math/)
+
+- [31802.**주기 함수 (Easy)**](/study/algorithms/math/silver/boj-31802/)
+
+- [**26517. 연속인가? ?**](/study/algorithms/math/silver/boj-26517/)

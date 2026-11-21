@@ -1,0 +1,39 @@
+---
+title: "집합론"
+permalink: /study/algorithms/math/jibhabron/
+toc: true
+---
+
+[상위 페이지 · Math](/study/algorithms/math/)
+
+- 집합론은 원소의 포함 관계와 집합 사이의 연산을 다루는 가장 기본적인 언어다.
+- 집합과 연산을 익히면 부분집합, 멱집합, 합집합, 교집합, 여집합 같은 개념이 정리된다.
+- 관계와 함수는 집합의 원소들을 연결하는 방식이며, 동치관계와 전단사는 이후의 수학 전반으로 이어진다.
+- 무한집합으로 넘어가면 단순한 개수 세기 대신 일대일 대응과 기수 개념이 중심이 된다.
+- 순서 구조, 공리, 서수는 집합론의 고급 파트이며 기초를 본 뒤 확장해서 읽는 편이 좋다.
+
+## 읽기 가이드
+
+- 처음 읽으면 [집합과 연산](/study/algorithms/math/jibhabron/jibhabgwa-yeonsan/) 부터 보는 편이 좋다.
+- 그다음은 [관계와 함수](/study/algorithms/math/jibhabron/gwangyewa-hamsu/) 로 이어가면 된다.
+- [무한집합과 기수](/study/algorithms/math/jibhabron/muhanjibhabgwa-gisu/), [순서 구조](/study/algorithms/math/jibhabron/sunseo-gujo/), [공리와 서수](/study/algorithms/math/jibhabron/gongriwa-seosu/) 는 필요할 때 다시 들어오는 방식이 효율적이다.
+
+## 페이지
+
+- [집합과 연산](/study/algorithms/math/jibhabron/jibhabgwa-yeonsan/)
+
+- [관계와 함수](/study/algorithms/math/jibhabron/gwangyewa-hamsu/)
+
+- [무한집합과 기수](/study/algorithms/math/jibhabron/muhanjibhabgwa-gisu/)
+
+- [순서 구조](/study/algorithms/math/jibhabron/sunseo-gujo/)
+
+- [공리와 서수](/study/algorithms/math/jibhabron/gongriwa-seosu/)
+
+## 관련 문서
+
+- [포함 배제 원리](/study/algorithms/math/poham-baeje-weonri/)
+- [Union-Find](/study/algorithms/graph/union-find/)
+- [동치관계 / 닮음](/study/algorithms/math/symbols/dongcigwangye-dalmeum/)
+- [초등함수](/study/algorithms/math/codeunghamsu/)
+- [Graph](/study/algorithms/graph/)

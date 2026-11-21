@@ -1,0 +1,169 @@
+---
+title: "Implementation"
+permalink: /study/algorithms/implementation/
+math: true
+toc: true
+---
+
+[상위 페이지 · 알고리즘](/study/algorithms/)
+
+알고리즘 문제를 풀 때 구현은 핵심적인 요소이다. 구현이란 주어진 문제를 실제 코드로 옮기는 작업을 의미한다. 정확한 구현이 이루어지지 않으면 프로그램이 제대로 동작하지 않거나 원하는 결과를 얻을 수 없다.
+
+성공적인 구현을 위해서는 문제를 정확히 이해하고 입출력 형식을 파악해야 한다. 동시에 예외 상황 처리와 변수의 범위도 세심하게 고려해야 한다.
+
+구현의 핵심은 간결하고 명확한 코드 작성이다. 변수명과 함수명은 직관적으로 짓고, 불필요한 반복문이나 조건문은 최소화하여 가독성을 높여야 한다.
+
+또한, 효율적인 코드 작성도 중요하다. 시간 복잡도와 공간 복잡도를 고려하여 알고리즘을 설계하고, 최적화된 코드를 작성해야 한다.
+
+알고리즘 문제 해결에서 구현 능력은 연습을 통해 향상된다. 다양한 문제를 풀어보고 다른 사람의 코드를 분석하는 것이 실력 향상에 도움이 된다.
+
+## 팁
+
+### 간결한 코드 작성하기
+
+100줄짜리 코드가 1000줄짜리 코드보다 읽기 쉽다. 단, 가독성을 해치면서까지 줄이진 말자.
+
+### 적극적으로 코드 재사용하기
+
+코드를 모듈화하자. 실무만큼은 아니더라도 적절한 모듈화는 디버깅과 코드 흐름 파악에 도움이 된다.
+
+### 표준 라이브러리 공부
+
+라이브러리에서 지원하는 자료구조는 우리가 직접 구현한 것보다 항상 더 빠르다.
+
+표준 라이브러리는 수많은 사용과 검증을 거쳤기에 메모리 관리나 정당성 증명을 걱정할 필요가 없다.
+
+### 항상 같은 형태로 프로그램 작성하기
+
+새로운 알고리즘이나 처음 보는 형태의 문제에서만 다양한 스타일을 시도해보자. 대회 참가자로서는 매번 코드를 검증하기 어렵다. 이미 검증된 코드 형태를 사용하면 도구가 아닌 문제 해결에 집중할 수 있다.
+
+### 일괄적이고 명료한 명명법 사용
+
+변수명과 함수명을 명확하게 짓는 것만으로도 디버깅이 쉬워지고 실수가 줄어든다.
+
+### 모든 자료를 정규화해서 저장
+
+자료는 헷갈리지 않도록 하나의 단위로 저장하자.
+
+예를 들어 x축과 $$(\sqrt{3},-1)$$사이의 각도는 -30도, 330도, 690도로 표현할 수 있다. 각도를 하나의 표준 형식으로 통일하지 않으면 각도 관련 함수 작성이 복잡해진다.
+
+### 코드와 데이터 분리
+
+코드의 논리와 상관없는 데이터는 가능한 한 분리하자.
+
+잘못된 코드
+
+```cpp
+string getMonthName(int month){
+	if(month == 1) return "January";
+	else if(month == 2) return "Feburuary";
+	...
+	return "December";
+}
+```
+
+옳은 코드
+
+```cpp
+const string monthName[] = {"January","Feburuary",...,"December"};
+```
+
+### if문 중첩 줄이기
+
+if문을 과도하게 중첩하면 코드의 가독성이 크게 떨어진다. 다음과 같은 방법으로 중첩을 줄일 수 있다:
+
+**1. 걸러내는 조건문은 먼저 처리하기**
+
+```java
+while (true) {
+	num = scan.nextInt();
+    if (num != 0) { 
+    	if (num >= 0 && num < 10) { 
+	        // 원하는 동작
+        }
+        else { System.out.println("잘못된 입력입니다."); }
+    } else break; 
+}
+```
+
+위 코드는 중첩 깊이가 4단계다. 조건을 앞쪽에서 처리하면:
+
+```java
+while (true) {
+	num = scan.nextInt();
+    if (num == 0) break;
+    if (num < 0 || num >= 10) { 
+    	System.out.println("잘못된 입력입니다."); continue;
+    }
+    //원하는 동작
+}
+```
+
+중첩 깊이가 2단계로 줄어들어 훨씬 직관적이다.
+
+**2. 배열을 활용해 조건문 줄이기**
+
+```java
+if (select == 1) System.out.println("하복 판매");
+else if (select == 2) System.out.println("춘추복 판매");
+else if (select == 3) System.out.println("동복 판매");
+```
+
+이런 조건문은 물품이 추가될 때마다 코드를 수정해야 하고, 가독성도 떨어진다. 배열을 활용하면:
+
+```java
+String seasons[] = {"하복", "춘추복", "동복"};
+System.out.println(seasons[select-1] + " 판매");
+```
+
+코드가 더 간결해지고 유지보수도 쉬워진다.
+
+**3. 메서드 반환값은 단순화하기**
+
+```java
+boolean match(String kwd) { 
+  boolean result = false;
+  if (name.equals(kwd) || Integer.toString(id).equals(kwd)) 
+  	result = true; return result; 
+}
+```
+
+위 코드는 불필요한 변수와 조건문을 사용한다. 다음처럼 단순화할 수 있다:
+
+```java
+boolean match(String kwd) { 
+	return (name.equals(kwd) || Integer.toString(id).equals(kwd));
+}
+```
+
+**4. 공통 부분과 차이점 분리하기**
+
+```java
+if (seasonOff){
+	 System.out.printf("%s (%d벌) %d원 [50% 세일]\n", category, copies, price/2);
+} else {
+	System.out.printf("%s (%d벌) %d원\n", category, copies, price);
+}
+```
+
+반복되는 출력문은 하나로 합치고, 차이나는 부분만 따로 처리하면 더 효율적이다:
+
+```java
+System.out.printf("%s (%d벌) %d원", category, copies, (seasonOff) ? price/2 : price); 
+if (seasonOff) System.out.print(" [50% 세일]");
+System.out.println();
+```
+
+### 문제를 체계적으로 분석하기
+
+[21611번 **마법사 상어와 블리자드**](/study/algorithms/implementation/gold/boj-21611/)처럼 긴 문제는 첫 읽기에서 문제 상황, 주어진 정보, 입력값, 출력값을 정리해두면 이해가 쉽고 다시 읽을 필요도 없다.
+
+### 내장 함수의 시간복잡도 이해하기
+
+알고리즘 문제에서는 효율성이 중요하므로 시간복잡도와 공간복잡도를 반드시 고려해야 한다. 자주 사용하는 내장 함수의 복잡도는 미리 알아두면 좋다.
+
+## 문제 해결
+
+- [플레티넘](/study/algorithms/implementation/platinum/)
+
+- [골드](/study/algorithms/implementation/gold/)

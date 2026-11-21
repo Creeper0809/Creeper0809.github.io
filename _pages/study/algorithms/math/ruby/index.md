@@ -1,0 +1,12 @@
+---
+title: "루비"
+permalink: /study/algorithms/math/ruby/
+---
+
+[상위 페이지 · Math](/study/algorithms/math/)
+
+- [**14346&**14347**.Radioactive Islands**](/study/algorithms/math/ruby/boj-14346-14347/)
+
+- [17646. **제곱수의 합 2 (More Huge)**](/study/algorithms/math/ruby/boj-17646/)
+
+- [10350. Banks](/study/algorithms/math/ruby/boj-10350/)

@@ -1,0 +1,48 @@
+---
+title: "플래티넘"
+permalink: /study/algorithms/data-structure/platinum/
+---
+
+[상위 페이지 · Data Structure](/study/algorithms/data-structure/)
+
+- [11003. 최소값 찾기](/study/algorithms/data-structure/platinum/boj-11003/)
+
+- [5977. **Mowing the Lawn**](/study/algorithms/data-structure/platinum/boj-5977/)
+
+- [19585. 전설](/study/algorithms/data-structure/platinum/boj-19585/)
+
+- [7578. 공장](/study/algorithms/data-structure/platinum/boj-7578/)
+
+- [2243. 사탕 상자](/study/algorithms/data-structure/platinum/boj-2243/)
+
+- [5670. 휴대폰 자판](/study/algorithms/data-structure/platinum/boj-5670/)
+
+- [3015. 오아시스 재결합](/study/algorithms/data-structure/platinum/boj-3015/)
+
+- [1725&6549 히스토그램 넓이 구하기](/study/algorithms/data-structure/platinum/boj-1725-6549/)
+
+- [16978. 수열과 쿼리 22](/study/algorithms/data-structure/platinum/boj-16978/)
+
+- [16975. 수열과 쿼리 21](/study/algorithms/data-structure/platinum/boj-16975/)
+
+- [3653. 영화 수집](/study/algorithms/data-structure/platinum/boj-3653/)
+
+- [13537. 수열과 쿼리 1](/study/algorithms/data-structure/platinum/boj-13537/)
+
+- [13544. 수열과 쿼리 3](/study/algorithms/data-structure/platinum/boj-13544/)
+
+- [16903. 수열과 쿼리 20](/study/algorithms/data-structure/platinum/boj-16903/)
+
+- [7469. K번째 수](/study/algorithms/data-structure/platinum/boj-7469/)
+
+- [1395. 스위치](/study/algorithms/data-structure/platinum/boj-1395/)
+
+- [18227. 성대나라의 물탱크](/study/algorithms/data-structure/platinum/boj-18227/)
+
+- [16404. 주식회사 승범이네](/study/algorithms/data-structure/platinum/boj-16404/)
+
+- [17408. 수열과 쿼리 24](/study/algorithms/data-structure/platinum/boj-17408/)
+
+- [2336. **굉장한 학생**](/study/algorithms/data-structure/platinum/boj-2336/)
+
+- [13309. 트리](/study/algorithms/data-structure/platinum/boj-13309/)

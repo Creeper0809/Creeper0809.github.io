@@ -1,0 +1,20 @@
+---
+title: "다이아"
+permalink: /study/algorithms/search/diamond/
+---
+
+[상위 페이지 · Search](/study/algorithms/search/)
+
+- [8217. 유성](/study/algorithms/search/diamond/boj-8217/)
+
+- [16977. **히스토그램에서 가장 큰 직사각형과 쿼리**](/study/algorithms/search/diamond/boj-16977/)
+
+- [13546. 수열과 쿼리 4 ](/study/algorithms/search/diamond/boj-13546/)
+
+- [**14504&17410. 수열과 쿼리**](/study/algorithms/search/diamond/boj-14504-17410/)
+
+- [13550. 수열과 쿼리 7](/study/algorithms/search/diamond/boj-13550/)
+
+- [13545. 수열과 쿼리 0](/study/algorithms/search/diamond/boj-13545/)
+
+- [19998&3763&7681&1840. 스도쿠](/study/algorithms/search/diamond/19998-3763-7681-1840-seudoku/)

@@ -1,0 +1,12 @@
+---
+title: "대입"
+permalink: /study/algorithms/math/symbols/daeib/
+math: true
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: $$f(x)|_{x=a}$$
+분류: 미적분학 기호
+설명: $$f(x)|_{x=a}$$는 $$x$$에 대한 함수 $$f$$에 $$a$$를 대입한 값 $$f(a)$$를 의미한다.
+예시: $$f(x,y)=x^2+y^2-2$$에 대해 $$f(x,y)|_{(x,y)=(0,1)} = -1$$

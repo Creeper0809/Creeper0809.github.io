@@ -1,0 +1,10 @@
+---
+title: "조건부 확률"
+permalink: /study/algorithms/math/symbols/jogeonbu-hwagryul/
+---
+
+[상위 페이지 · 수학 기호](/study/algorithms/math/symbols/)
+
+기호: P(A∣B)
+분류: 미분류 기호
+설명: 사건 B가 일어났을 때 사건 A가 일어날 조건부 확률.
