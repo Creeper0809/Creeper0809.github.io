@@ -30,10 +30,6 @@
   width: 100%;
 }
 
-.profile .profile-links {
-  margin-top: 10px;
-}
-
 .profile-section {
   margin-bottom: 36px;
 }
@@ -209,10 +205,6 @@
 
 .profile-details h2 {
   font-size: clamp(23px, 2.6vw, 27px);
-}
-
-.profile-skills {
-  margin-top: 25px;
 }
 
 .profile-skills ul {
