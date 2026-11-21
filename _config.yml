@@ -280,7 +280,17 @@ defaults:
       comments:  true
       share: true
       related: true
-        # _docs
+  - scope:
+      path: "_posts/study/algorithms"
+      type: posts
+    values:
+      classes: []
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  # _pages
   - scope:
       path: "_pages"
       type: pages
