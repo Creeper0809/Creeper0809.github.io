@@ -6,7 +6,7 @@ algorithm_entry: solution
 tags: ["SQL", "프로그래머스", "프로그래머스 레벨 5", "문제 풀이", "재귀", "서브쿼리", "SELECT"]
 ---
 
-[상위 페이지 · 레벨 5](/study/algorithms/etc/sql/rebel-5/)
+[상위 페이지 · SQL](/study/algorithms/etc/sql/)
 
 ![image.png](/assets/images/study/algorithms/image-500-fb00d91e.png)
 

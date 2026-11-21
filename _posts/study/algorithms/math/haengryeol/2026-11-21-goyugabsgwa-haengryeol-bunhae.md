@@ -8,7 +8,7 @@ categories: ["알고리즘"]
 tags: ["수학", "선형대수학"]
 ---
 
-[상위 페이지 · 행렬](/study/algorithms/math/haengryeol/)
+[상위 페이지 · Math](/study/algorithms/math/)
 
 ## 고유값과 고유벡터
 

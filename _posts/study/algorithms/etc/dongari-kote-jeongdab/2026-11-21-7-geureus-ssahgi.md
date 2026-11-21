@@ -7,7 +7,7 @@ algorithm_entry: solution
 tags: ["코딩 테스트", "문제 풀이", "구현", "연속 비교"]
 ---
 
-[상위 페이지 · 동아리 코테 정답](/study/algorithms/etc/dongari-kote-jeongdab/)
+[상위 페이지 · Etc](/study/algorithms/etc/)
 
 ![image.png](/assets/images/study/algorithms/image-498-65116cac.png)
 

@@ -13,7 +13,7 @@ tags: ["수학", "암호학", "선형대수학", "Lenstra-Lenstra-Lovász"]
 ### 배경 지식
 
 - [Shortest Vector Problem](/study/algorithms/math/shortest-vector-problem/)
-- [행렬](/study/algorithms/math/haengryeol/)
+- [행렬](/study/algorithms/math/#haengryeol)
 
 ## 1. 개요
 

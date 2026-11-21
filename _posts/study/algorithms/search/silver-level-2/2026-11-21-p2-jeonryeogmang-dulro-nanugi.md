@@ -6,7 +6,7 @@ algorithm_entry: solution
 tags: ["탐색", "프로그래머스", "프로그래머스 레벨 2", "문제 풀이", "분리 집합", "완전 탐색"]
 ---
 
-[상위 페이지 · 실버/레벨2](/study/algorithms/search/silver-level-2/)
+[상위 페이지 · Search](/study/algorithms/search/)
 
 ![image.png](/assets/images/study/algorithms/image-469-ee016916.png)
 

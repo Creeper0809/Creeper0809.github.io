@@ -5,4 +5,4 @@ categories: ["알고리즘"]
 tags: ["링크 컷 트리", "트리"]
 ---
 
-[상위 페이지 · 미정리](/study/algorithms/unsorted/)
+[상위 페이지 · 알고리즘](/study/algorithms/)

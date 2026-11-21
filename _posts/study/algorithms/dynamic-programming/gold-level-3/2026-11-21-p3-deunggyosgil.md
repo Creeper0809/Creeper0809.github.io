@@ -6,7 +6,7 @@ algorithm_entry: solution
 tags: ["동적 계획법", "프로그래머스", "프로그래머스 레벨 3", "문제 풀이"]
 ---
 
-[상위 페이지 · 골드/레벨 3](/study/algorithms/dynamic-programming/gold-level-3/)
+[상위 페이지 · Dynamic Programming](/study/algorithms/dynamic-programming/)
 
 ![image.png](/assets/images/study/algorithms/image-433-28255500.png)
 

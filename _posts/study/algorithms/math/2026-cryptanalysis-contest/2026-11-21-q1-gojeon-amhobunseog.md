@@ -8,7 +8,7 @@ categories: ["알고리즘"]
 tags: ["수학", "암호학"]
 ---
 
-[상위 페이지 · 2026 암호분석경진대회](/study/algorithms/math/2026-cryptanalysis-contest/)
+[상위 페이지 · Math](/study/algorithms/math/)
 
 ## **1. 시저 암호와 비제네르 암호의 원리 및 차이**
 

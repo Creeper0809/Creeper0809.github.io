@@ -6,7 +6,7 @@ algorithm_entry: solution
 tags: ["그래프", "프로그래머스", "프로그래머스 레벨 3", "문제 풀이", "그래프 순회"]
 ---
 
-[상위 페이지 · 골드/레벨3](/study/algorithms/graph/gold-level-3/)
+[상위 페이지 · Graph](/study/algorithms/graph/)
 
 ![image.png](/assets/images/study/algorithms/image-325-767065b7.png)
 
