@@ -18,6 +18,9 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+{% if page.layout == 'tags' %}
+<link rel="stylesheet" href="{{ '/assets/css/tag-explorer.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+{% endif %}
 {% if page.math %}
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 {% endif %}

@@ -10,7 +10,10 @@ layout: archive
 <div class="tag-explorer" data-tag-explorer>
   <div class="tag-explorer__search" data-tag-search hidden>
     <label for="tag-search">태그 검색</label>
-    <input type="search" id="tag-search" placeholder="세그먼트 트리" autocomplete="off" aria-controls="tag-directory">
+    <div class="tag-explorer__search-field">
+      <span class="tag-explorer__search-icon" aria-hidden="true"></span>
+      <input type="search" id="tag-search" placeholder="세그먼트 트리" autocomplete="off" aria-controls="tag-directory">
+    </div>
   </div>
 
   <section aria-labelledby="featured-tag-title" data-tag-featured>
@@ -21,7 +24,7 @@ layout: archive
         {% if posts and posts.size > 0 %}
           {% assign slug = name | slugify %}
           <li><a href="#{{ slug }}" data-tag-link="{{ slug }}">
-            <span>{{ name | escape }}</span><span class="taxonomy__count">{{ posts.size }}</span>
+            <span>{{ name | escape }}</span> <span class="tag-explorer__count">{{ posts.size }}</span>
           </a></li>
         {% endif %}
       {% endfor %}
@@ -29,7 +32,7 @@ layout: archive
   </section>
 
   <details class="tag-explorer__details" data-tag-filters hidden>
-    <summary>필터 <span>플랫폼 · 난이도 · 대회</span></summary>
+    <summary><strong>필터</strong><span>플랫폼 · 난이도 · 대회</span></summary>
     <div class="tag-explorer__filters">
       {% for filter in explorer.filters %}
         <div>
@@ -48,7 +51,7 @@ layout: archive
   </details>
 
   <details class="tag-explorer__details" data-tag-directory>
-    <summary>전체 태그</summary>
+    <summary><strong>전체 태그</strong></summary>
     <p class="tag-explorer__feedback" data-tag-search-status role="status" hidden></p>
     <ul class="tag-explorer__grid" id="tag-directory">
       {% for tag in tags %}
@@ -61,7 +64,7 @@ layout: archive
           {% endif %}
         {% endfor %}
         <li data-tag-entry="{{ slug }}" data-tag-group="{{ group }}"><a href="#{{ slug }}" data-tag-link="{{ slug }}">
-          <span data-tag-name>{{ tag[0] | escape }}</span><span class="taxonomy__count">{{ tag[1].size }}</span>
+          <span data-tag-name>{{ tag[0] | escape }}</span> <span class="tag-explorer__count">{{ tag[1].size }}</span>
         </a></li>
       {% endfor %}
     </ul>
@@ -95,4 +98,4 @@ layout: archive
   {% endfor %}
 </div>
 
-<script src="{{ '/assets/js/tag-explorer.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/tag-explorer.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
