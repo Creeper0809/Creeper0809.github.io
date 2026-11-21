@@ -7,7 +7,7 @@
   const featured = explorer.querySelector('[data-tag-featured]');
   const directory = explorer.querySelector('[data-tag-directory]');
   const filters = explorer.querySelector('[data-tag-filters]');
-  const fields = [...filters.querySelectorAll('[data-tag-filter]')];
+  const fields = [...explorer.querySelectorAll('[data-tag-filter]')];
   const results = explorer.querySelector('[data-tag-results]');
   const heading = results.querySelector('h2');
   const resultsStatus = results.querySelector('[data-tag-results-status]');
@@ -22,6 +22,9 @@
   }));
   const aliases = new Map([...explorer.querySelectorAll('[data-tag-alias]')].map((alias) => (
     [alias.id, alias.dataset.tagAlias]
+  )));
+  const relocations = new Map([...explorer.querySelectorAll('[data-tag-relocation]')].map((link) => (
+    [link.id, link.href]
   )));
   const sections = new Map([...explorer.querySelectorAll('[data-tag-section]')].map((section) => (
     [section.id, section]
@@ -105,6 +108,11 @@
     const url = new URL(window.location.href);
     const fragment = fragmentTag();
     const slug = aliases.get(fragment) || fragment;
+    const relocated = relocations.get(slug);
+    if (relocated) {
+      window.location.replace(relocated);
+      return;
+    }
     const group = tags.get(slug)?.group;
     topic = group === 'topic' ? slug : '';
 
@@ -171,7 +179,7 @@
   updateDirectory();
   readLocation();
   explorer.querySelector('[data-tag-search]').hidden = false;
-  filters.hidden = false;
+  if (filters) filters.hidden = false;
   explorer.dataset.enhanced = '';
   if (window.location.hash && !results.hidden) {
     requestAnimationFrame(() => results.scrollIntoView());

@@ -6,6 +6,7 @@ layout: archive
 
 {% assign explorer = site.data.tag_explorer %}
 {% assign tags = site.tags | sort %}
+{% assign entry_kind = page.algorithm_entry %}
 
 <div class="tag-explorer" data-tag-explorer>
   <div class="tag-explorer__search" data-tag-search hidden>
@@ -20,8 +21,8 @@ layout: archive
     <h2 id="featured-tag-title" class="archive__subtitle">대표 주제</h2>
     <ul class="tag-explorer__grid tag-explorer__grid--featured">
       {% for name in explorer.featured %}
-        {% assign posts = site.tags[name] %}
-        {% if posts and posts.size > 0 %}
+        {% assign posts = site.tags[name] | where_exp: 'post', 'post.algorithm_entry == entry_kind' %}
+        {% if posts.size > 0 %}
           {% assign slug = name | slugify %}
           <li><a href="#{{ slug }}" data-tag-link="{{ slug }}">
             <span>{{ name | escape }}</span> <span class="tag-explorer__count">{{ posts.size }}</span>
@@ -31,6 +32,7 @@ layout: archive
     </ul>
   </section>
 
+  {% if entry_kind == 'solution' %}
   <details class="tag-explorer__details" data-tag-filters hidden>
     <summary><strong>필터</strong><span>플랫폼 · 난이도 · 대회</span></summary>
     <div class="tag-explorer__filters">
@@ -40,7 +42,8 @@ layout: archive
           <select id="tag-{{ filter[0] }}" data-tag-filter="{{ filter[0] }}">
             <option value="">전체</option>
             {% for name in filter[1].tags %}
-              {% if site.tags[name] %}
+              {% assign posts = site.tags[name] | where_exp: 'post', 'post.algorithm_entry == entry_kind' %}
+              {% if posts.size > 0 %}
                 <option value="{{ name | slugify }}">{{ name | escape }}</option>
               {% endif %}
             {% endfor %}
@@ -49,22 +52,27 @@ layout: archive
       {% endfor %}
     </div>
   </details>
+  {% endif %}
 
   <details class="tag-explorer__details" data-tag-directory>
     <summary><strong>전체 태그</strong></summary>
     <p class="tag-explorer__feedback" data-tag-search-status role="status" hidden></p>
     <ul class="tag-explorer__grid" id="tag-directory">
       {% for tag in tags %}
+        {% assign posts = tag[1] | where_exp: 'post', 'post.algorithm_entry == entry_kind' %}
+        {% if posts.size == 0 %}{% continue %}{% endif %}
         {% assign slug = tag[0] | slugify %}
         {% assign group = 'topic' %}
-        {% for filter in explorer.filters %}
-          {% if filter[1].tags contains tag[0] %}
-            {% assign group = filter[0] %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
+        {% if entry_kind == 'solution' %}
+          {% for filter in explorer.filters %}
+            {% if filter[1].tags contains tag[0] %}
+              {% assign group = filter[0] %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
         <li data-tag-entry="{{ slug }}" data-tag-group="{{ group }}"><a href="#{{ slug }}" data-tag-link="{{ slug }}">
-          <span data-tag-name>{{ tag[0] | escape }}</span> <span class="tag-explorer__count">{{ tag[1].size }}</span>
+          <span data-tag-name>{{ tag[0] | escape }}</span> <span class="tag-explorer__count">{{ posts.size }}</span>
         </a></li>
       {% endfor %}
     </ul>
@@ -82,6 +90,16 @@ layout: archive
 
   {% for tag in tags %}
     {% assign slug = tag[0] | slugify %}
+    {% assign posts = tag[1] | where_exp: 'post', 'post.algorithm_entry == entry_kind' %}
+    {% if posts.size == 0 %}
+      {% if entry_kind == 'solution' and site.tag_archive.post_path %}
+        {% assign regular_posts = tag[1] | where_exp: 'post', 'post.algorithm_entry == nil' %}
+        {% if regular_posts.size > 0 %}
+          <a class="tag-explorer__relocation" id="{{ slug }}" href="{{ site.tag_archive.post_path | relative_url }}#{{ slug }}" data-tag-relocation>포스트 태그에서 {{ tag[0] | escape }} 보기</a>
+        {% endif %}
+      {% endif %}
+      {% continue %}
+    {% endif %}
     {% for alias in explorer.aliases %}
       {% if alias[1] == tag[0] %}
         <span class="tag-explorer__alias" id="{{ alias[0] | slugify }}" data-tag-alias="{{ slug }}"></span>
@@ -90,7 +108,7 @@ layout: archive
     <section class="tag-explorer__section" id="{{ slug }}" data-tag-section>
       <h2 class="archive__subtitle">{{ tag[0] | escape }}</h2>
       <ul class="tag-explorer__posts">
-        {% for post in tag[1] %}
+        {% for post in posts %}
           <li><a href="{{ post.url | relative_url }}">{{ post.title | escape_once }}</a></li>
         {% endfor %}
       </ul>

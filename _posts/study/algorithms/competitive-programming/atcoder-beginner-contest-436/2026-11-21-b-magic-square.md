@@ -3,7 +3,7 @@ title: "B - Magic Square"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-436/b-magic-square/
 math: true
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 436", "문제 풀이", "구현", "시뮬레이션"]
 ---
 

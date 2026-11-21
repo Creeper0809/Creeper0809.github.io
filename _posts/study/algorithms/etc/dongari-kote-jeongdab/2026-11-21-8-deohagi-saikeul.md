@@ -3,7 +3,7 @@ title: "8. 더하기 사이클"
 permalink: /study/algorithms/etc/dongari-kote-jeongdab/8-deohagi-saikeul/
 toc: true
 excerpt: "현재 수를 계속 갱신하면서 시작 수로 다시 돌아오는 시점을 센다. 갱신식은 새 수 = 일의 자리 곱하기 10 + 자릿수 합의 일의 자리 이다."
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["코딩 테스트", "문제 풀이", "구현", "반복 시뮬레이션"]
 ---
 

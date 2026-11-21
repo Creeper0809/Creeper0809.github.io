@@ -2,7 +2,7 @@
 title: "E - Cover query"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-435/e-cover-query/
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 435", "문제 풀이", "자료 구조", "구현", "좌표 압축"]
 ---
 

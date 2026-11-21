@@ -253,13 +253,15 @@ $tag-accent-border: mix($link-color, $border-color, 45%);
   }
 }
 
-.tag-explorer__section {
+.tag-explorer__section,
+.tag-explorer__relocation {
   display: none;
 }
 
 .tag-explorer:not([data-enhanced]) {
   .tag-explorer__section:target,
-  .tag-explorer__alias:target + .tag-explorer__section {
+  .tag-explorer__alias:target + .tag-explorer__section,
+  .tag-explorer__relocation:target {
     display: block;
   }
 }

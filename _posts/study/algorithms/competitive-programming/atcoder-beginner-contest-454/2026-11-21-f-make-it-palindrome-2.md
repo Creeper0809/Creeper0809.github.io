@@ -4,7 +4,7 @@ permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-45
 math: true
 toc: true
 excerpt: "길이 N의 수열 A가 주어진다. 각 원소는 0 이상 M 미만이다."
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 454", "문제 풀이", "그리디", "차분 배열", "모듈러 연산", "팰린드롬"]
 ---
 

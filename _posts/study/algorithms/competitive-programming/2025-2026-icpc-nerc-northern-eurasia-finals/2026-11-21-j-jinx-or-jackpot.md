@@ -3,7 +3,7 @@ title: "J. Jinx or Jackpot"
 permalink: /study/algorithms/competitive-programming/2025-2026-icpc-nerc-northern-eurasia-finals/j-jinx-or-jackpot/
 math: true
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "ICPC", "ICPC NERC 2025-2026", "문제 풀이", "동적 계획법", "베이즈 정리", "확률"]
 ---
 

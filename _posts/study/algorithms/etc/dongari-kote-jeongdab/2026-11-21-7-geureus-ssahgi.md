@@ -3,7 +3,7 @@ title: "7. 그릇 쌓기"
 permalink: /study/algorithms/etc/dongari-kote-jeongdab/7-geureus-ssahgi/
 toc: true
 excerpt: "첫 문자로 10을 시작하고, 두 번째 문자부터 직전 문자와 같은지 비교해서 같으면 5, 다르면 10을 더한다."
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["코딩 테스트", "문제 풀이", "구현", "연속 비교"]
 ---
 

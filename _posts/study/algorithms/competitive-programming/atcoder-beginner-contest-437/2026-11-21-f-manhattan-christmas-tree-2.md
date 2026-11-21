@@ -3,7 +3,7 @@ title: "F - Manhattan Christmas Tree 2"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-437/f-manhattan-christmas-tree-2/
 math: true
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 437", "문제 풀이", "자료 구조", "세그먼트 트리", "수학"]
 ---
 

@@ -4,7 +4,7 @@ permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-45
 math: true
 toc: true
 excerpt: "정수 L과 R이 주어진다. L 이상 R 이하인 정수가 몇 개인지 구한다."
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 454", "문제 풀이", "구현", "산술"]
 ---
 

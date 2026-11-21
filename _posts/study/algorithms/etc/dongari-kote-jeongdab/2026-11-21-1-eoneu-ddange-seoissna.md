@@ -3,7 +3,7 @@ title: "1. 어느 땅에 서있나"
 permalink: /study/algorithms/etc/dongari-kote-jeongdab/1-eoneu-ddange-seoissna/
 toc: true
 excerpt: "x와 y의 부호 조합은 네 가지뿐이므로 조건문 네 줄로 바로 분기하면 된다."
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["코딩 테스트", "문제 풀이", "구현", "조건 분기"]
 ---
 

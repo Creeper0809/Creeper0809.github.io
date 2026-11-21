@@ -3,7 +3,7 @@ title: "A. Wonderful Sticks"
 permalink: /study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/a-wonderful-sticks/
 toc: true
 excerpt: "즉, k를 기준으로 '<'은 k-1, k-2, …, 1까지 순서대로 넣으면 만족되고, '>'은 k+1, k+2, …, n까지 순서대로 넣으면 만족된다."
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "Codeforces", "Codeforces Round 1018", "문제 풀이", "정렬"]
 ---
 

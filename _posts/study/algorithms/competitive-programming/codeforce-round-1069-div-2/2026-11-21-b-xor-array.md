@@ -3,7 +3,7 @@ title: "B. XOR Array"
 permalink: /study/algorithms/competitive-programming/codeforce-round-1069-div-2/b-xor-array/
 math: true
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "Codeforces", "Codeforces Round 1069", "문제 풀이", "수학"]
 ---
 

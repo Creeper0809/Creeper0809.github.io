@@ -3,7 +3,7 @@ title: "B. Wonderful Gloves"
 permalink: /study/algorithms/competitive-programming/codeforce-round-1018-div-1-div-2/b-wonderful-gloves/
 toc: true
 excerpt: "| 98(택) | 54(택) | 75(택) | 91(택) | 68 | | --- | --- | --- | --- | --- | | 89 | 52 | 27 | 78 | 77(택) |"
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "Codeforces", "Codeforces Round 1018", "문제 풀이", "그리디", "정렬"]
 ---
 

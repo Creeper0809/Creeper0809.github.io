@@ -2,7 +2,7 @@
 title: "P3.등굣길"
 permalink: /study/algorithms/dynamic-programming/gold-level-3/p3-deunggyosgil/
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["동적 계획법", "프로그래머스", "프로그래머스 레벨 3", "문제 풀이"]
 ---
 

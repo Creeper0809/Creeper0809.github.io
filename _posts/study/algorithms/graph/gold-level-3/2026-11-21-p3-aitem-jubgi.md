@@ -2,7 +2,7 @@
 title: "P3.아이템 줍기"
 permalink: /study/algorithms/graph/gold-level-3/p3-aitem-jubgi/
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["그래프", "프로그래머스", "프로그래머스 레벨 3", "문제 풀이", "그래프 순회"]
 ---
 

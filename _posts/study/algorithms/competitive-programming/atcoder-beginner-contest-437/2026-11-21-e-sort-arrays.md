@@ -2,7 +2,7 @@
 title: "E - Sort Arrays"
 permalink: /study/algorithms/competitive-programming/atcoder-beginner-contest-437/e-sort-arrays/
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["알고리즘 대회", "AtCoder", "AtCoder Beginner Contest 437", "문제 풀이", "자료 구조", "트라이", "그래프 순회"]
 ---
 

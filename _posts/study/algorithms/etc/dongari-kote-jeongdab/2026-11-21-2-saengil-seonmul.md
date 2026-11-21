@@ -2,7 +2,7 @@
 title: "2. 생일 선물"
 permalink: /study/algorithms/etc/dongari-kote-jeongdab/2-saengil-seonmul/
 toc: true
-categories: ["알고리즘"]
+algorithm_entry: solution
 tags: ["코딩 테스트", "문제 풀이", "수학", "일차식 변형"]
 ---
 
