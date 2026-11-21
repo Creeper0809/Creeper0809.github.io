@@ -12,6 +12,11 @@ layout: archive
 {% endfor %}
 
 <ul class="taxonomy__index">
+  {% for link in page.category_links %}
+    <li>
+      <a href="{{ link.url | relative_url }}"><strong>{{ link.title | escape }}</strong></a>
+    </li>
+  {% endfor %}
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
       {% if category[1].size == i %}
