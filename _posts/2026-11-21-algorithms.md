@@ -1,6 +1,14 @@
 ---
 title: "알고리즘"
+date: 2026-11-21 10:38:14 +0900
 permalink: /study/algorithms/
+excerpt: "알고리즘 이론, 자료 구조, 그래프, 정렬과 문제 풀이를 주제별로 정리했습니다."
+classes: []
+author_profile: true
+read_time: false
+comments: false
+share: false
+related: false
 math: true
 toc: true
 ---
