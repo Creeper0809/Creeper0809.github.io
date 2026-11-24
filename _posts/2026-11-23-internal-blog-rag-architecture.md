@@ -1,10 +1,10 @@
 ---
-title: "사내 기술 블로그로 배우는 임베딩과 RAG"
+title: "[2026 ABC 프로젝트 멘토링 15기] 프로젝트 1주차 - 임베딩과 RAG"
 date: 2026-11-23 00:00:00 +0900
 permalink: /backend/internal-blog-rag-architecture/
 excerpt: "배포 후 502 오류가 난 가상의 회고를 예로, 임베딩 모델이 문장을 벡터로 바꾸는 과정부터 문단 검색, 출처가 있는 답변, 검색 평가까지 따라간다."
 categories: ["백엔드"]
-tags: ["RAG", "LLM", "임베딩", "벡터 검색"]
+tags: ["ABC 프로젝트 멘토링 15기", "RAG", "LLM", "임베딩", "벡터 검색"]
 toc: true
 ---
 
