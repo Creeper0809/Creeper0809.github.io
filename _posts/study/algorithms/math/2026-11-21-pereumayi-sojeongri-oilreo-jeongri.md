@@ -15,8 +15,9 @@ tags: ["수학", "정수론", "페르마의 소정리/오일러 정리"]
 
 - [모듈러 연산](/study/algorithms/math/modyulreo-yeonsan/)
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리**
 
@@ -93,8 +94,9 @@ $$
 
 ### 설명
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리**
 

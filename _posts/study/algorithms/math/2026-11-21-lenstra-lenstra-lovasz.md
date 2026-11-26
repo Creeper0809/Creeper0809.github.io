@@ -100,8 +100,9 @@ $$
 
 격자의 중요한 특징 중 하나는 동일한 격자를 생성하는 기저가 무한히 많다는 점이다. 두 기저 $$B$$와 $$B'$$가 같은 격자를 생성한다면, 이들 사이에는 유니모듈러 행렬 $$U$$가 존재하여 $$B' = BU$$의 관계가 성립한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **유니모듈러 행렬**
 

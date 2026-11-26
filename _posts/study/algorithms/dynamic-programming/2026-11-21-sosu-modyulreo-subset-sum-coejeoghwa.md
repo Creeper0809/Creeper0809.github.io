@@ -30,9 +30,10 @@ tags: ["동적 계획법", "부분집합 합", "모듈러 연산", "소수 모�
 - 기본 비트셋 DP는 `reach |= rotl(reach, d)` 형태로 구현 가능하다.
 - `p`가 클 때는 아이템 수를 줄여야 하므로, `diff`의 서로 다른 값 개수 `D`에 따라 분기한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **핵심 직관**
 
@@ -102,9 +103,10 @@ $$
 3. `target` 도달 시 역추적으로 각 residue 사용 개수 복원
 4. 복원한 사용 개수를 페어 선택 인덱스로 매핑
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **구현에서 가장 많이 틀리는 지점**
 

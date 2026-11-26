@@ -174,8 +174,9 @@ $$GF(p)$$에서 $$a$$의 역원 $$a^{-1}$$은 $$a \cdot x \equiv 1 \pmod{p}$$를
 
 ## 6. 완전 보안성 증명
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리:**
 

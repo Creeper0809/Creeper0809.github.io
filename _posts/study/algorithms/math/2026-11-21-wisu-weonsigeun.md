@@ -17,8 +17,9 @@ tags: ["수학", "정수론", "위수/원시근"]
 
 ## 설명
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 n > 1이고 gcd(a,n) = 1일 때, 어떤 정수 a가 법 n에 대해 k의 위수를 가진다는 것은 k가 $$a^k\ mod\ n \equiv 1$$ 을 만족하는 최소의 자연수
 
@@ -32,8 +33,9 @@ n > 1이고 gcd(a,n) = 1일 때, 어떤 정수 a가 법 n에 대해 k의 위수�
 
 따라서 위수가 될 자연수의 후보를 줄일 필요가 있음.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 n은 자연수이고 a는 gcd(a,n)=1을 만족하는 정수일 때, 자연수 h에 대하여 $$a^h\ mod \ n \equiv 1$$을 만족할 필요충분조건은 $$ord_n(a) |h$$이다. 그러므로 $$ord_n(a)\ |\ \phi(n)$$이 성립한다. 
 
@@ -63,8 +65,9 @@ $$ord_n(a) = \phi(n)$$일 때, 이를 원시근이라고 한다.
     즉 $$ord_5(2)=\phi(5)=4$$
     
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 n은 자연수이고 a는 gcd(a,n)=1을 만족하는 정수일때 정수 a가 $$ord_n(a)=\phi(n)$$을 만족하면 a를 법 n의 원시근이라고 정의함
 

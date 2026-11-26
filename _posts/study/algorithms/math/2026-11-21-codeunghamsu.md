@@ -10,8 +10,9 @@ tags: ["수학", "미적분학", "초등함수"]
 
 [상위 페이지 · Math](/study/algorithms/math/)
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의**
 
@@ -21,8 +22,9 @@ tags: ["수학", "미적분학", "초등함수"]
 
 ## 대수함수
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의**
 
@@ -42,8 +44,9 @@ $$P(x,y) = 0$$ 즉 $$x^2 + y^2 -1 = 0$$을 만족하는 함수 $$y = f(x) = \sqr
 
 ### 다항함수
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의**
 
@@ -110,8 +113,9 @@ $$
 
 이차함수는 변수 x에 대한 이차식으로 나타낼 수 있는 함수이다. 그래프를 그리면 포물선 모양이 나온다. 대표적인 우함수이다. 이차함수는 일반적으로 다음과 같이 표현된다. 
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **우함수의 정의**
 
@@ -144,8 +148,9 @@ $$
 
 삼차함수는 변수 x에 대한 삼차식으로 나타낼 수 있는 함수이다. 그래프는 일반적으로 부드러운 S자 형태의 곡선을 가진다. 만약 지수가 모두 홀수만 있다면 이는 기함수라고도 불린다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **기함수의 정의**
 
@@ -201,8 +206,9 @@ $$
 y = \frac{k}{x - p} + q
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -247,8 +253,9 @@ $$
 y = a\sqrt{bx + c} + d
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -296,8 +303,9 @@ $$
 y = a^x
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -339,8 +347,9 @@ $$
 y = log_ax
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -387,8 +396,9 @@ cos(\theta) = x \\
 tan(\theta) = \frac{y}{x}
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **호도법**
 
@@ -401,8 +411,9 @@ $$
 - l = r인 경우로 정의하여 이에 따라 1회전은 $$2\pi\ rad$$이다
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -455,8 +466,9 @@ y = \arccos(x) \\
 y = \arctan(x)
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -523,8 +535,9 @@ $$
 tanh(x) = \frac{sinh(x)}{cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 
@@ -566,8 +579,9 @@ $$
 artanh(x) = \frac{1}{2}\ln{\left( \frac{1+x}{1-x}\right)}
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의역과 치역**
 

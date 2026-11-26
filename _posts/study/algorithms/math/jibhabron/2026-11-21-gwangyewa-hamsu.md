@@ -187,8 +187,9 @@ $$
 
 ### 관계의 정의
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(관계)**
 
@@ -228,8 +229,9 @@ $$
     
 - $$A$$, $$B$$는 관계를 정의할 때 미리 정한 집합이므로 흔히 **공역**을 $$B$$로 부른다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 치역 $$\mathrm{Ran}(R)$$는 실제로 연결되는 값들의 집합이고, 공역 $$B$$는 “허용된 출력의 전체 후보”이다. 일반적으로 $$\mathrm{Ran}(R) \subseteq B$$이다.
 
@@ -237,8 +239,9 @@ $$
 
 ### 역관계
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(역관계)**
 
@@ -254,8 +257,9 @@ $$
 
 #### 성질
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리** $$(R^{-1})^{-1}=R$$
 
@@ -303,8 +307,9 @@ $$
 
 세 집합 $$A,B,C$$에 대해 $$R\subseteq A\times B$$, $$S\subseteq B\times C$$가 주어졌다고 하자.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(합성관계)**
 
@@ -322,8 +327,9 @@ $$
 
 #### 성질
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리 1** 합성은 결합법칙을 만족한다. 즉, $$T\subseteq C\times D$$에 대해
 
@@ -381,8 +387,9 @@ $$
 T\circ (S\circ R)=(T\circ S)\circ R.
 $$
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리 2** 역관계와 합성은 다음을 만족한다.
 
@@ -470,8 +477,9 @@ $$
 
 ### 반사관계, 대칭관계, 추이관계
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 집합 $$A$$ 위의 관계 $$R$$에 대해 다음을 정의한다.
 
@@ -486,16 +494,18 @@ $$
 
 대칭과는 다른 방향의 성질도 중요하다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 - **반대칭:** $$\forall a,b\in A,\ (a,b)\in R\land (b,a)\in R \Rightarrow a=b$$
 </aside>
 
 반대칭은 “서로 양방향으로 연결되면 사실상 같은 원소다”라는 뜻이다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(부분순서)**
 
@@ -518,8 +528,9 @@ $$
 
 앞 절에서 정의한 세 성질(반사, 대칭, 추이)을 모두 만족하는 관계는 “같음”의 개념을 확장하는 데 쓰인다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(동치관계)**
 
@@ -531,8 +542,9 @@ $$
 
 ### 동치류
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(동치류)**
 
@@ -552,8 +564,9 @@ $$
 
 동치류가 중요한 이유는, 동치류들이 $$A$$를 겹치지 않게 깔끔하게 분해하기 때문이다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리 1** 임의의 $$a,b\in A$$에 대해 $$[a]=[b]$$이거나 $$[a]\cap[b]=\emptyset$$이다.
 
@@ -570,8 +583,9 @@ $$
 
 같은 방식으로 $$[b]\subseteq[a]$$도 얻으므로 $$[a]=[b]$$이다. 즉 교집합이 비어 있지 않으면 동치류가 같고, 그렇지 않으면 서로소다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리 2** 동치류들의 모임 $$\{[a]:a\in A\}$$는 $$A$$의 분할(partition)을 이룬다.
 
@@ -585,8 +599,9 @@ $$
 
 ### 몫집합
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(몫집합)**
 
@@ -624,8 +639,9 @@ $$
 
 집합 $$A,B$$에 대해 관계 $$f\subseteq A\times B$$가 다음 조건을 만족하면, 이를 $$A$$에서 $$B$$로의 함수라고 한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(함수)**
 
@@ -673,8 +689,9 @@ $$
 
 ### 단사, 전사, 전단사
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 함수 $$f:A\to B$$에 대해 다음을 정의한다.
 
@@ -709,8 +726,9 @@ $$
 
 관계의 합성과 같은 논리로 합성은 결합법칙을 만족한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리**
 
@@ -754,8 +772,9 @@ $$
 
 함수 $$f:A\to B$$가 전단사라면, 각 $$b\in B$$에 대해 $$f(a)=b$$를 만족하는 $$a\in A$$가 정확히 하나 존재한다. 이를 이용해 $$B$$에서 $$A$$로 가는 함수를 정의할 수 있다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정의(역함수)**
 
@@ -773,8 +792,9 @@ $$
 
 역함수는 합성과 항등함수에 대해 다음 성질을 만족한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리**
 
@@ -794,8 +814,9 @@ $$
 
 마지막으로, 역함수는 존재한다면 항상 유일하다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리**
 

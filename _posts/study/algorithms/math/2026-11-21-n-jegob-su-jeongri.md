@@ -23,8 +23,9 @@ tags: ["수학", "정수론", "n 제곱 수 정리"]
 
 ### 두 제곱수 표현
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **페르마의 두 제곱수 정리**
 
@@ -36,8 +37,9 @@ $$n = x^2 + y^2$$
 - n은 4로 나눈 나머지가 3인 소인수의 지수가 홀수가 아니다. 이는 소인수분해 했을 때 4k+3 형태의 소수들의 지수가 모두 짝수여야 함을 의미한다.
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **브라마굽타 피보나치 항등식**
 
@@ -47,8 +49,9 @@ $$xy = (ac-bd)^2 + (ad + bc)^2$$로 나타낼 수 있다. 이 항등식은 두 �
 
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 [Tonelli-Shanks](/study/algorithms/math/tonelli-shanks/) 
 
@@ -67,8 +70,9 @@ $$
 - 이 알고리즘은 대칭성과 모듈러 산술의 성질을 이용하여 비교적 빠르게 해를 찾도록 설계되어 있다. 특히 큰 소수에 대해서도 효율적으로 동작한다.
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **Cornacchia's algorithm**
 
@@ -102,8 +106,9 @@ $$
 
 ## 세 제곱수 표현
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **르장드르의 정리**
 

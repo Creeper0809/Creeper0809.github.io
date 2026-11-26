@@ -203,8 +203,9 @@ $$
 
 ![image.png](/assets/images/study/algorithms/image-100-4fceab5f.png)
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **회전자의 주기성**
 

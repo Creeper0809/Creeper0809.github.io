@@ -69,8 +69,9 @@ print(gcd(24, 36)) # Output: 12
 
 확장 유클리드 알고리즘은 두 정수 a와 b의 최대공약수(gcd)를 구할 뿐만 아니라 베주 항등식을 만족하는 정수 x와 y를 찾는 알고리즘이다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 ### 베주 항등식
 

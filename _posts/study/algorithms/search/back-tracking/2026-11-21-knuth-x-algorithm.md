@@ -29,8 +29,9 @@ Knuth X 알고리즘은 Exact Cover 문제를 해결하기 위해 Donald Knuth�
     - I = {6, 8}
 - 다음 조건을 만족하는 $$S$$의 부분 집합 $$S'$$ 구하는 것
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **조건**
 
@@ -48,8 +49,9 @@ Knuth X 알고리즘은 Exact Cover 문제를 해결하기 위해 Donald Knuth�
 
 이러한 행렬에서 크누스 X 알고리즘은 다음과 같은 흐름을 가진다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **알고리즘의 흐름**
 
@@ -66,8 +68,9 @@ Knuth X 알고리즘은 Exact Cover 문제를 해결하기 위해 Donald Knuth�
 
 ### 예시
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **문제 상황**
 
@@ -242,8 +245,9 @@ $$S' = \{B,D,F\}$$
 
 ## 전략을 위한 도구 DLX
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **댄싱 링크**
 
@@ -548,8 +552,9 @@ if __name__ == "__main__":
 
 스도쿠를 예시로 들어보면 우선 Column에 들어가야 할 요소를 고려해야한다. 스도쿠 규칙을 생각해보면 다음과 같은 제약조건이 있다:
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 1. 스도쿠의 각 칸에는 숫자 하나밖에 들어갈 수 없다. 이를 위한 81개의 column이 필요하다. 즉, (1,1)부터 (9,9)까지의 모든 위치에 정확히 하나의 숫자가 배치되어야 한다.
 2. 스도쿠의 각 가로줄, 세로줄, 박스에는 1~9의 숫자가 하나씩만 사용되어야 한다. 이를 위해 243(= 3 * 9 * 9)개의 column이 필요하다. 구체적으로:
@@ -562,7 +567,7 @@ if __name__ == "__main__":
 
 다음으로는 Row를 고려해야한다.
 
-<aside markdown="1">
+<aside class="notion-callout" markdown="1">
 
 1. 스도쿠의 각 칸에는 1~9사이의 숫자가 하나 들어간다. 따라서 729(9*9*9)개의 row가 필요하다. 각 row는 특정 위치(r,c)에 특정 숫자(n)가 들어가는 경우를 의미한다. 예를 들어, (1,1) 위치에 1이 들어가는 경우, (1,1) 위치에 2가 들어가는 경우... (9,9) 위치에 9가 들어가는 경우까지 모든 가능한 조합을 고려한다.
 </aside>
@@ -574,8 +579,9 @@ if __name__ == "__main__":
 - **세로줄 규칙:** "n열에는 숫자 m가 있어야 한다"
 - **박스 규칙:** "중앙 박스(n번 박스)에는 숫자 m가 있어야 한다”
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **예시 (4,5,2)**
 

@@ -45,8 +45,9 @@ tags: ["수학", "밀러 라빈", "정수론"]
 
 ## 밀러 - 라빈 동작
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 [페르마의 소정리/오일러 정리](/study/algorithms/math/pereumayi-sojeongri-oilreo-jeongri/) 
 
@@ -54,8 +55,9 @@ p가 소수이고 p, a가 서로소이면, $$a^{p-1} \equiv 1\ \pmod p$$다
 
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 보조 정리
 

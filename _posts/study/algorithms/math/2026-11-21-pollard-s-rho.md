@@ -41,8 +41,9 @@ tags: ["수학", "폴라드 로", "정수론"]
 
 이러한 문제를 해결하기 위해 $$f(x) = x^2 + c\ mod\ N$$를 사용하여 x값을 결정한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 왜 $$f(x) = x^2 + c\ mod\ N$$를 사용하는가?
 
@@ -56,8 +57,9 @@ tags: ["수학", "폴라드 로", "정수론"]
     1. 이러한 f(x)를 사용하면 mod N의 값이 고르게 분포되며, 값은 무작위적이지만 일정한 규칙성을 가진다. 따라서 이미 확인한 경우를 다시 확인할 확률이 낮아진다.
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 추가적인 정보(1) 비둘기집 원리
 
@@ -69,8 +71,9 @@ tags: ["수학", "폴라드 로", "정수론"]
 
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 추가적인 정보(2) 모듈러 산술의 기본 성질
 
@@ -94,8 +97,9 @@ $$
 
 N|d에 대해 수열이 순환할 때, 어떤 두 정수 x, y에 대해 $$a_x \equiv a_y (mod\ d)$$가 성립하는 구간이 존재한다. 이는 곧 $$gcd(a_x - a_y, N) ≠ 1$$을 의미하며, $$gcd(a_x - a_y, N)$$이 N의 인수가 된다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 $$a_x - a_y \equiv 0 \pmod{d}$$는 $$a_x - a_y$$가 인수 d의 배수라는 의미이다.
 
@@ -107,8 +111,9 @@ $$a_x - a_y$$와 N의 최대공약수를 구하면 d의 배수와 N의 공통 �
 
 이제 우리의 목표는 $$a_x \equiv a_y (mod\ d)$$를 만족하는 두 정수 x, y를 찾는 것이다. 이는 순환 그래프에서 충돌이 발생했다는 의미이며, 이 충돌을 감지하면 두 정수 x, y를 구할 수 있다. 이를 위해 플로이드 순환 알고리즘을 사용하는데, x = f(x), y = f(f(y))로 설정하여 순환을 찾는다. 즉, x는 한 칸씩, y는 두 칸씩 이동하는 방식이다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 플로이드 순환 알고리즘을 사용하는 이유
 

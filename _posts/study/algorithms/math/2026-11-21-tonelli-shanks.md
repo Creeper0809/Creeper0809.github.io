@@ -52,8 +52,9 @@ Tonelli-Shanks 알고리즘의 주요 아이디어는 소수 p-1을 $$2^{k\cdot 
     
 3. **이차 비잔여  $$\mathbb{z}$$를 찾는다**
     
-    <aside markdown="1">
+    <aside class="notion-callout notion-callout--with-icon" markdown="1">
     💡
+    {: .notion-callout__icon aria-hidden="true"}
     
     **이차비잔여**
     

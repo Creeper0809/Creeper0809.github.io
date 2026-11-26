@@ -65,8 +65,9 @@ Mo's Algoritm은 이 쿼리를 적절히 정렬하여 이 이동거리를 줄임
 
 단순 오름차순 정렬에서 발생한 R 포인터의 불규칙한 이동 문제를 해결하기 위해 제곱근 분할법을 도입한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **제곱근 분할법**
 

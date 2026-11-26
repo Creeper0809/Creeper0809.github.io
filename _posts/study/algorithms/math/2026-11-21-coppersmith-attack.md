@@ -29,8 +29,9 @@ Coppersmith 정리는 모듈러 다항식 방정식에서 특정 범위 내의 �
 
 ### 2.1.1 기본 설정
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **모닉 다항식**
 
@@ -60,7 +61,7 @@ Coppersmith 정리는 모듈러 다항식 방정식에서 특정 범위 내의 �
 
 ## 2.2 정리의 핵심 내용
 
-<aside markdown="1">
+<aside class="notion-callout" markdown="1">
 
 **Coppersmith 정리:**
 
@@ -113,7 +114,7 @@ $$
 
 ### 2.3.1 핵심 보조정리
 
-<aside markdown="1">
+<aside class="notion-callout" markdown="1">
 
 **보조정리:**
 

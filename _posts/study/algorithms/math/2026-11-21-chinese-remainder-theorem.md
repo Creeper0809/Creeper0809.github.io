@@ -71,8 +71,9 @@ $$
 
 ## 3. 증명
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **베주 항등식**
 

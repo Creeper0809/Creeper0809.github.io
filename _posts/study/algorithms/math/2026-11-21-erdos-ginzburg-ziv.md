@@ -25,8 +25,9 @@ tags: ["수학", "EGZ 정리", "조합론"]
 - 길이 2N-1 정수열이 주어지면, 합이 N의 배수인 원소 N개를 항상 고를 수 있다.
 - 실전에서는 존재성만 쓰면 부족하고, 실제 인덱스를 복원하는 구성 알고리즘이 필요하다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **핵심 직관**
 
@@ -85,7 +86,7 @@ $$
 3. n이 합성수면 x=spf[n], y=n/x로 분해하고 그룹 단위 재귀를 수행한다.
 4. parent/선택 정보를 역추적해 길이 n 인덱스를 반환한다.
 
-<aside markdown="1">
+<aside class="notion-callout" markdown="1">
 
 **구현에서 가장 많이 틀리는 지점**
 

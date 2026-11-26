@@ -44,7 +44,7 @@ Padding Oracle Attack은 암호문을 해독하기 위해 서버의 **패딩 검
 
 ## 2 PKCS#7 패딩
 
-<aside markdown="1">
+<aside class="notion-callout" markdown="1">
 
 **블록 암호**
 
@@ -52,7 +52,7 @@ Padding Oracle Attack은 암호문을 해독하기 위해 서버의 **패딩 검
 
 </aside>
 
-<aside markdown="1">
+<aside class="notion-callout" markdown="1">
 
 **운영 모드 (CBC Mode)**
 

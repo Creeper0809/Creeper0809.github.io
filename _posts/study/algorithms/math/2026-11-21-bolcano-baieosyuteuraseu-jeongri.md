@@ -18,8 +18,9 @@ tags: ["수학", "미적분학", "볼차노-바이어슈트라스 정리"]
 
 ## 정의
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **볼차노-바이어슈트라스 정리**는 다음과 같이 정의된다:
 
@@ -57,8 +58,9 @@ $$n \geq 2$$일 때 $$a_n \leq \frac{1}{2}$$이므로, 구간 $$[0, \frac{1}{2}]
 
 ### **칸토어의 구간 축소 정리 적용**
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **칸토어의 구간 축소 정리**
 

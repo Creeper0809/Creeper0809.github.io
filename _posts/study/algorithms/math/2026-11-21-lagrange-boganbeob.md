@@ -39,8 +39,9 @@ $$
 
 ## 1.2 복원 유일성 증명
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **정리:**
 

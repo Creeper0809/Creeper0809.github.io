@@ -6,3 +6,33 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.notion-callout {
+  margin: 1.25em 0;
+  padding: 0.875em 1em;
+  border: 1px solid $border-color;
+  border-inline-start: 0.2em solid $info-color;
+  border-radius: $border-radius;
+  background-color: mix($background-color, $info-color, 94%);
+
+  > :first-child,
+  > .notion-callout__icon + * {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  > .notion-callout__icon {
+    position: absolute;
+    inset-block-start: 0.875em;
+    inset-inline-start: 0.875em;
+    margin: 0;
+  }
+}
+
+.notion-callout--with-icon {
+  position: relative;
+  padding-inline-start: 2.75em;
+}

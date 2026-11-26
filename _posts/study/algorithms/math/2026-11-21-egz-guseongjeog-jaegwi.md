@@ -25,8 +25,9 @@ tags: ["수학", "조합론", "EGZ 구성적 재귀"]
 - 구성적 풀이에서는 N을 합성수로 분해해서 작은 모듈러 문제를 두 번 푸는 방식으로 실제 해를 만든다.
 - 핵심은 N=a*b일 때, 먼저 a에 대한 배수 조건을 맞춘 그룹을 만든 뒤 b에 대한 배수 조건으로 그룹을 다시 선택하는 구조다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 **핵심 직관**
 
@@ -85,8 +86,9 @@ $$
 3. 그룹별 carry=(group_sum/x) % y를 만들어 solve(y, carry)를 호출한다.
 4. 선택된 그룹 인덱스를 원래 인덱스로 복원해 반환한다.
 
-<aside markdown="1">
+<aside class="notion-callout notion-callout--with-icon" markdown="1">
 💡
+{: .notion-callout__icon aria-hidden="true"}
 
 자주 틀리는 지점
 
