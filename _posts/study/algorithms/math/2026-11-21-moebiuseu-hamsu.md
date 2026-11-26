@@ -18,11 +18,13 @@ tags: ["수학", "정수론", "뫼비우스 함수"]
 
 뫼비우스 함수(Möbius function)는 정수론에서 중요하게 사용되는 산술 함수이다. 이 함수는 다음과 같이 정의된다.
 
-$\mu(n)=\begin{cases}
-1,&\text{if }n=1\\
-(-1)^r,&\text{if }e_1=e_2=\cdots=e_r =1 , (\text{Free SqaureNumber})\\
-0,&\text{otherwise}
-\end{cases}$
+$$
+\mu(n) = \begin{cases}
+1 &\text{if } n = 1 \\
+(-1)^r &\text{if } e_1 = e_2 = \cdots = e_r = 1 \\
+0 &\text{otherwise}
+\end{cases}
+$$
 
 - n이 1일 때, μ(n) = 1
 - n이 소수의 거듭제곱일 때, μ(n) = -1

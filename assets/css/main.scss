@@ -7,6 +7,25 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.page__title,
+.page__content {
+  overflow-wrap: anywhere;
+}
+
+.page__content mjx-container {
+  max-inline-size: 100%;
+  overflow-x: auto;
+
+  &[display="true"] {
+    padding-block: 0.2em;
+  }
+
+  &:not([display="true"]) {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
 .notion-callout {
   margin: 1.25em 0;
   padding: 0.875em 1em;

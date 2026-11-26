@@ -41,7 +41,7 @@ tags: ["수학", "집합론"]
 3. 여집합은 $$A^c = \{2, 4, 6\}$$ 이다.
 4. 차집합은 $$A - B = \{1\}$$ 이고, $$B - A = \{2\}$$ 이다.
 5. 대칭차집합은 $$A \Delta B = \{1, 2\}$$ 이다.
-6. 합집합의 원소 수는 $$|A \cup B| = |A| + |B| - |A \cap B| = 3 + 3 - 2 = 4$$ 이다.
+6. 합집합의 원소 수는 $$\vert A \cup B\vert  = \vert A\vert  + \vert B\vert  - \vert A \cap B\vert  = 3 + 3 - 2 = 4$$ 이다.
 
 ## 집합과 원소
 
@@ -68,9 +68,9 @@ tags: ["수학", "집합론"]
 - $$2 \in A$$
 - $$5 \notin A$$
 
-집합의 원소 개수는 $$|A|$$ 또는 $$n(A)$$ 로 적는다.
+집합의 원소 개수는 $$\vert A\vert $$ 또는 $$n(A)$$ 로 적는다.
 
-- $$|A| = 4$$
+- $$\vert A\vert  = 4$$
 - $$n(A) = 4$$
 
 ## 기본 성질
@@ -257,17 +257,17 @@ $$A \subseteq B$$ 이고 동시에 $$A \ne B$$ 이면 $$A \subset B$$ 라고 쓴
 
 합집합의 원소 수는 각 집합의 원소 수를 더한 뒤, 교집합이 두 번 세어진 만큼 한 번 빼 주어야 한다.
 
-- $$|A \cup B| = |A| + |B| - |A \cap B|$$
+- $$\vert A \cup B\vert  = \vert A\vert  + \vert B\vert  - \vert A \cap B\vert $$
 
 워크스루의 예시에서는
 
-- $$|A| = 3$$
-- $$|B| = 3$$
-- $$|A \cap B| = 2$$
+- $$\vert A\vert  = 3$$
+- $$\vert B\vert  = 3$$
+- $$\vert A \cap B\vert  = 2$$
 
 이므로
 
-- $$|A \cup B| = 3 + 3 - 2 = 4$$
+- $$\vert A \cup B\vert  = 3 + 3 - 2 = 4$$
 
 이다.
 

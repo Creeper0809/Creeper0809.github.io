@@ -37,7 +37,7 @@ n > 1이고 gcd(a,n) = 1일 때, 어떤 정수 a가 법 n에 대해 k의 위수�
 💡
 {: .notion-callout__icon aria-hidden="true"}
 
-n은 자연수이고 a는 gcd(a,n)=1을 만족하는 정수일 때, 자연수 h에 대하여 $$a^h\ mod \ n \equiv 1$$을 만족할 필요충분조건은 $$ord_n(a) |h$$이다. 그러므로 $$ord_n(a)\ |\ \phi(n)$$이 성립한다. 
+n은 자연수이고 a는 gcd(a,n)=1을 만족하는 정수일 때, 자연수 h에 대하여 $$a^h\ mod \ n \equiv 1$$을 만족할 필요충분조건은 $$ord_n(a) \vert h$$이다. 그러므로 $$ord_n(a)\ \vert \ \phi(n)$$이 성립한다.
 
 - a|b 는 a는 정수 b의 약수
 </aside>

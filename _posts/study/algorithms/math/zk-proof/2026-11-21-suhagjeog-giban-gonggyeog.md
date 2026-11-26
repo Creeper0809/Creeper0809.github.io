@@ -51,13 +51,13 @@ template VulnerableAgeCheck() {
 
 ### 원리
 
-Schwartz-Zippel 보조정리에 따르면, 0이 아닌 $$d$$차 다항식이 무작위로 선택된 점에서 0이 될 확률은 최대 $$d/|F|$$이다.
+Schwartz-Zippel 보조정리에 따르면, 0이 아닌 $$d$$차 다항식이 무작위로 선택된 점에서 0이 될 확률은 최대 $$d/\vert F\vert $$이다.
 
 $$
-\Pr[P(r) = 0 \mid P \neq 0] \leq \frac{d}{|F|}
+\Pr[P(r) = 0 \mid P \neq 0] \leq \frac{d}{\vert F\vert }
 $$
 
-필드 크기 $$|F| = p$$가 작으면 이 확률이 커져서, 무작위 시도만으로 유효한 증명을 생성할 수 있다.
+필드 크기 $$\vert F\vert  = p$$가 작으면 이 확률이 커져서, 무작위 시도만으로 유효한 증명을 생성할 수 있다.
 
 ## 취약한 설정
 

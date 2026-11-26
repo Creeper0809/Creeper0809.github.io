@@ -77,11 +77,11 @@ $$n \geq 2$$일 때 $$a_n \leq \frac{1}{2}$$이므로, 구간 $$[0, \frac{1}{2}]
 
 1. **축소 구간열:** $$I_0 \supset I_1 \supset I_2 \supset \cdots \supset I_k \supset \cdots$$
 2. **부분수열:** $$(x_{n_k}) = (x_{n_1}, x_{n_2}, \ldots)$$ (이때 $$n_1 < n_2 < \cdots$$이고, 각 $$x_{n_k} \in I_k$$입니다.)
-3. **길이:** $$\lim_{k \to \infty} |I_k| = 0$$
-    - $$|I_1| = b_0 - a_0 = L$$
-    - $$|I_2| = \frac{L}{2}$$
-    - $$|I_3| = \frac{L}{4}$$
-    - $$|I_k| = \frac{L}{2^k}$$
+3. **길이:** $$\lim_{k \to \infty} \vert I_k\vert  = 0$$
+    - $$\vert I_1\vert  = b_0 - a_0 = L$$
+    - $$\vert I_2\vert  = \frac{L}{2}$$
+    - $$\vert I_3\vert  = \frac{L}{4}$$
+    - $$\vert I_k\vert  = \frac{L}{2^k}$$
     - $$\underset{k \to \infin}{\lim}\frac{L}{2^k} = 0$$
 
 칸토어의 구간 축소 정리를 적용할 수 있는 모든 조건을 만족하기에, 축소되는 닫힌 구간들의 교집합 $$\bigcap_{k=1}^{\infty} I_k$$는 정확히 하나의 점을 포함한다. 이 경우 그 점은 $$x = 0$$이다.
@@ -91,15 +91,15 @@ $$n \geq 2$$일 때 $$a_n \leq \frac{1}{2}$$이므로, 구간 $$[0, \frac{1}{2}]
 k번째 항은 $$a_{n_k}$$는 $$I_k$$안에 있다($$a_{n_k} \in I_k$$). 극한값 c 역시 $$I_k$$안에 있다($$c \in I_k$$). $$a_{n_k}$$와  c는 $$I_k$$안에 존재하므로 두 점 사이의 거리는 0보다 크고 $$I_k$$의 길이보다 작다.
 
 $$
-0 \le |a_{n_k} - c| \le \frac{L}{2^k}
+0 \le \vert a_{n_k} - c\vert  \le \frac{L}{2^k}
 $$
 
 조임 정리에 의해 다음과 같이 정리 된다.
 
 $$
-\underset{k \to \infin}{\lim}0 \le \underset{k \to \infin}{\lim}|a_{n_k} - c| \le \underset{k \to \infin}{\lim}\frac{L}{2^k}
+\underset{k \to \infin}{\lim}0 \le \underset{k \to \infin}{\lim}\vert a_{n_k} - c\vert  \le \underset{k \to \infin}{\lim}\frac{L}{2^k}
 \\
-0 \le \underset{k \to \infin}{\lim}|a_{n_k} - c| \le 0
+0 \le \underset{k \to \infin}{\lim}\vert a_{n_k} - c\vert  \le 0
 \\
 c \le \underset{k \to \infin}{\lim}a_{n_k} \le c
 $$

@@ -28,9 +28,9 @@ $$
 
 ## 노름과 거리
 
-- L1 노름: $$\lVert x\rVert_1=\sum_i|x_i|$$
+- L1 노름: $$\lVert x\rVert_1=\sum_i\vert x_i\vert $$
 - L2 노름: $$\lVert x\rVert_2=\sqrt{\sum_i x_i^2}$$
-- 최대 노름: $$\lVert x\rVert_\infty=\max_i|x_i|$$
+- 최대 노름: $$\lVert x\rVert_\infty=\max_i\vert x_i\vert $$
 - Frobenius 노름: $$\lVert A\rVert_F=\sqrt{\sum_{i,j}A_{ij}^2}$$
 
 L1·L2 노름은 거리 측정뿐 아니라 Lasso·Ridge 정규화에도 사용된다.
